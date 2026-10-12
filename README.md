@@ -70,7 +70,7 @@ de hipótesis se encuentran en desarrollo.
 | Integrante | Responsabilidad |
 |---|---|
 | Hernán Saavedra | Calidad y preparación de datos, entorno reproducible e integración. |
-| Lenin Salas | Estadística descriptiva, visualizaciones, correlaciones y análisis bivariado. |
+| Lenin Morales | Estadística descriptiva, visualizaciones, correlaciones y análisis bivariado. |
 | Rodrigo Gómez | Intervalos de confianza, pruebas de hipótesis y revisión de supuestos. |
 | Equipo completo | Discusión, conclusiones y revisión del informe técnico. |
 
