@@ -44,3 +44,39 @@ El archivo original se conserva intacto. Las transformaciones se realizan sobre 
 7. Prueba chi-cuadrado de Pearson para la asociación entre `OverTime` y `Attrition`, con nivel de significancia de 0,05 y V de Cramér como medida de asociación.
 
 Los cálculos de ingreso y distancia utilizan los valores observados, sin imputación. Los valores ocultados se reservan en memoria para evaluar imputaciones posteriores.
+
+## Sumativa 1 — Informe técnico de avance, Fase 2
+
+Se continúa el análisis de IBM HR Employee Attrition utilizando el dataset
+original completo, sin generar faltantes artificiales.
+
+### Archivos
+
+- [Notebook de Sumativa 1](Sumativa1/Sumativa1_IBM_HR.ipynb).
+- [Figuras generadas](Sumativa1/figuras/).
+- [Dependencias del entorno](requirements.txt).
+
+### Estado del trabajo
+
+La carga, revisión de calidad y clasificación de variables están completas.
+El notebook incluye una base de estadística descriptiva, frecuencias,
+visualizaciones y correlaciones, pendiente de revisión e interpretación.
+
+El análisis bivariado según salida, los intervalos de confianza y las pruebas
+de hipótesis se encuentran en desarrollo.
+
+### Distribución del trabajo
+
+| Integrante | Responsabilidad |
+|---|---|
+| Hernán Saavedra | Calidad y preparación de datos, entorno reproducible e integración. |
+| Lenin Salas | Estadística descriptiva, visualizaciones, correlaciones y análisis bivariado. |
+| Rodrigo Gómez | Intervalos de confianza, pruebas de hipótesis y revisión de supuestos. |
+| Equipo completo | Discusión, conclusiones y revisión del informe técnico. |
+
+### Ejecución
+
+Con el entorno virtual activado, instalar las dependencias desde la raíz:
+
+```bash
+python -m pip install -r requirements.txt
