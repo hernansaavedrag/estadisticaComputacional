@@ -1,0 +1,45 @@
+{
+  "equipo": [
+    "Hernán Saavedra",
+    "Lenin Salas",
+    "Rodrigo Gómez"
+  ],
+  "dataset": {
+    "ruta": "datos/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "sha256": "a5c31e38bd7fafc9bc333884eb181b06b41b8e5e488e8f7ccb27199fb3be7659",
+    "registros": 1470,
+    "columnas": 35
+  },
+  "notebook_s1": {
+    "ruta": "S1/Sumativa1_IBM_HR.ipynb",
+    "sha256": "fcf4ad4c5f70a455c44267cd666ce00ad6830ec96b23d846b0eb8282872e8239"
+  },
+  "versiones": {
+    "Python": "3.11.9",
+    "pandas": "3.0.6",
+    "NumPy": "2.4.6",
+    "SciPy": "1.17.1",
+    "Matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "semilla_base": 42,
+  "iteraciones_previstas": 10000,
+  "referencias": [
+    {
+      "ruta": "S2/resultados/S1_referencia_medias.csv",
+      "sha256": "db2aecc11533c0a618534490643ca2e2e86a4a4afb629b3c47e24eb053a6898d"
+    },
+    {
+      "ruta": "S2/resultados/S1_referencia_correlaciones.csv",
+      "sha256": "ed52285ed34e0906776750768b2fea526b14b683df3a82012b673c72c95bdc83"
+    },
+    {
+      "ruta": "S2/resultados/S1_referencia_pruebas.csv",
+      "sha256": "fa1a065c3996715ee8d5ea821a9aa49d515cb4c2d702c17bad0f31a4ba6f015b"
+    },
+    {
+      "ruta": "S2/resultados/S1_referencia_grupos.csv",
+      "sha256": "995d66bb1e9f95723c67069e70e978485063c5c4e5751d708b1ea14f67b726a3"
+    }
+  ]
+}

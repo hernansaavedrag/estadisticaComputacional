@@ -1,0 +1,5 @@
+﻿variable_x,variable_y,n,rho_spearman
+MonthlyIncome,TotalWorkingYears,1470,0.71002431405650179
+Age,TotalWorkingYears,1470,0.65689582321316198
+YearsAtCompany,TotalWorkingYears,1470,0.5941932530497811
+DistanceFromHome,MonthlyIncome,1470,0.0025124484208233879
