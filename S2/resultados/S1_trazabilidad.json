@@ -12,7 +12,8 @@
   },
   "notebook_s1": {
     "ruta": "S1/Sumativa1_IBM_HR.ipynb",
-    "sha256": "fcf4ad4c5f70a455c44267cd666ce00ad6830ec96b23d846b0eb8282872e8239"
+    "sha256": "fcf4ad4c5f70a455c44267cd666ce00ad6830ec96b23d846b0eb8282872e8239",
+    "normalizacion": "Saltos de linea LF antes de calcular SHA-256"
   },
   "versiones": {
     "Python": "3.11.9",
