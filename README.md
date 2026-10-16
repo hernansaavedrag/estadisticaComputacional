@@ -2,7 +2,7 @@
 
 Proyecto de la asignatura Estadística Computacional del Magíster en Ciencia de Datos e Inteligencia Artificial de la Universidad Andrés Bello.
 
-**Equipo:** Hernán Saavedra, Lenin Salas y Rodrigo Gómez.
+**Equipo:** Hernán Saavedra, Lenin Morales y Rodrigo Gómez.
 
 ## Problema de estudio
 
