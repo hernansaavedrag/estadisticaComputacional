@@ -1,0 +1,2 @@
+﻿comparacion,n_permanece,n_sale,t_observado,p_welch_s1,permutaciones,extremos,p_permutacion,resolucion_minima_p,alfa,semilla,flujo_aleatorio,rechaza_h0
+permanece - sale,1233,237,7.4826215866447416,4.4335886282860673e-13,10000,0,9.9990000999900015e-05,9.9990000999900015e-05,0.050000000000000003,42,5,True
