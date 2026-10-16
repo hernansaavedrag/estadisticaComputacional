@@ -1,0 +1,222 @@
+{
+  "equipo": [
+    "Hernan Saavedra",
+    "Lenin Salas",
+    "Rodrigo Gomez"
+  ],
+  "dataset": {
+    "archivo": "datos/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "sha256": "a5c31e38bd7fafc9bc333884eb181b06b41b8e5e488e8f7ccb27199fb3be7659",
+    "registros": 1470,
+    "naturaleza": "Sintetico"
+  },
+  "estimaciones_y_correlaciones": [
+    {
+      "bloque": "Media",
+      "resultado": "MonthlyIncome",
+      "estimacion": 6502.931292517007,
+      "ic95_inferior": 6271.320173979072,
+      "ic95_superior": 6747.301283546725,
+      "metodo": "Bootstrap BCa, 10.000 remuestras",
+      "valoracion": "Concordancia entre IC t, percentil y BCa en el dataset completo",
+      "recomendacion_s3": "Conservar la estimacion y su incertidumbre; para ingreso, considerar sensibilidad a extremos"
+    },
+    {
+      "bloque": "Media",
+      "resultado": "Age",
+      "estimacion": 36.923809523809524,
+      "ic95_inferior": 36.470068027210885,
+      "ic95_superior": 37.399737440918486,
+      "metodo": "Bootstrap BCa, 10.000 remuestras",
+      "valoracion": "Concordancia entre IC t, percentil y BCa en el dataset completo",
+      "recomendacion_s3": "Conservar la estimacion y su incertidumbre; para ingreso, considerar sensibilidad a extremos"
+    },
+    {
+      "bloque": "Media",
+      "resultado": "YearsAtCompany",
+      "estimacion": 7.0081632653061225,
+      "ic95_inferior": 6.70952380952381,
+      "ic95_superior": 7.329419593679311,
+      "metodo": "Bootstrap BCa, 10.000 remuestras",
+      "valoracion": "Concordancia entre IC t, percentil y BCa en el dataset completo",
+      "recomendacion_s3": "Conservar la estimacion y su incertidumbre; para ingreso, considerar sensibilidad a extremos"
+    },
+    {
+      "bloque": "Correlacion",
+      "resultado": "MonthlyIncome - TotalWorkingYears",
+      "estimacion": 0.7100243140565018,
+      "ic95_inferior": 0.678811985008076,
+      "ic95_superior": 0.739172549621702,
+      "metodo": "Spearman y bootstrap pareado BCa",
+      "valoracion": "Signo positivo estable en el remuestreo",
+      "recomendacion_s3": "Examinar asociaciones estructurales y redundancia; no interpretar como causalidad"
+    },
+    {
+      "bloque": "Correlacion",
+      "resultado": "Age - TotalWorkingYears",
+      "estimacion": 0.656895823213162,
+      "ic95_inferior": 0.6226904674236156,
+      "ic95_superior": 0.6879585113379961,
+      "metodo": "Spearman y bootstrap pareado BCa",
+      "valoracion": "Signo positivo estable en el remuestreo",
+      "recomendacion_s3": "Examinar asociaciones estructurales y redundancia; no interpretar como causalidad"
+    },
+    {
+      "bloque": "Correlacion",
+      "resultado": "YearsAtCompany - TotalWorkingYears",
+      "estimacion": 0.5941932530497811,
+      "ic95_inferior": 0.5495464838448008,
+      "ic95_superior": 0.6340120852601531,
+      "metodo": "Spearman y bootstrap pareado BCa",
+      "valoracion": "Signo positivo estable en el remuestreo",
+      "recomendacion_s3": "Examinar asociaciones estructurales y redundancia; no interpretar como causalidad"
+    },
+    {
+      "bloque": "Correlacion",
+      "resultado": "DistanceFromHome - MonthlyIncome",
+      "estimacion": 0.002512448420823388,
+      "ic95_inferior": -0.04820823562174008,
+      "ic95_superior": 0.052730794605296345,
+      "metodo": "Spearman y bootstrap pareado BCa",
+      "valoracion": "Signo incierto; compatible con asociacion pequena o nula",
+      "recomendacion_s3": "Examinar asociaciones estructurales y redundancia; no interpretar como causalidad"
+    }
+  ],
+  "permutacion": [
+    {
+      "comparacion": "permanece - sale",
+      "n_permanece": 1233,
+      "n_sale": 237,
+      "t_observado": 7.482621586644742,
+      "p_welch_s1": 4.4335886282860673e-13,
+      "permutaciones": 10000,
+      "extremos": 0,
+      "p_permutacion": 9.999000099990002e-05,
+      "resolucion_minima_p": 9.999000099990002e-05,
+      "alfa": 0.05,
+      "semilla": 42,
+      "flujo_aleatorio": 5,
+      "rechaza_h0": true
+    }
+  ],
+  "sensibilidad": [
+    {
+      "escenario": "Original completo",
+      "n_permanece": 1233,
+      "n_sale": 237,
+      "media_permanece": 6832.739659367397,
+      "media_sale": 4787.0928270042195,
+      "diferencia_medias": 2045.646832363177,
+      "t_welch": 7.482621586644742,
+      "gl": 412.74074755747006,
+      "valor_p": 4.4335886282860673e-13,
+      "ic95_inferior": 1508.2435159484294,
+      "ic95_superior": 2583.0501487779247,
+      "rechaza_h0": true,
+      "cambio_diferencia_pct": 0.0
+    },
+    {
+      "escenario": "Sensibilidad: sin ingresos sobre límite IQR",
+      "n_permanece": 1124,
+      "n_sale": 232,
+      "media_permanece": 5715.769572953736,
+      "media_sale": 4470.7844827586205,
+      "diferencia_medias": 1244.9850901951158,
+      "t_welch": 5.694496934949914,
+      "gl": 363.9685341316202,
+      "valor_p": 2.5526903444747516e-08,
+      "ic95_inferior": 815.0494677834994,
+      "ic95_superior": 1674.9207126067322,
+      "rechaza_h0": true,
+      "cambio_diferencia_pct": -39.139783539425466
+    }
+  ],
+  "monte_carlo": [
+    {
+      "variable": "salidas_totales",
+      "media": 236.9038,
+      "desviacion_estandar": 13.742977570499427,
+      "percentil_2_5": 210.0,
+      "mediana": 237.0,
+      "percentil_97_5": 264.0
+    },
+    {
+      "variable": "diferencia_pp",
+      "media": 20.082933650197052,
+      "desviacion_estandar": 2.444057818544913,
+      "percentil_2_5": 15.284721208582685,
+      "mediana": 20.086027587213547,
+      "percentil_97_5": 24.843407896657418
+    }
+  ],
+  "influencia_jackknife": {
+    "diferencia_minima": 2029.6379644521421,
+    "diferencia_maxima": 2109.510845808075,
+    "empleados_mayor_influencia_diferencia": [
+      {
+        "EmployeeNumber": 787,
+        "MonthlyIncome": 19859,
+        "Attrition": "Yes",
+        "media_sin_empleado": 6493.839346494214,
+        "cambio_media": -9.091946022793309,
+        "diferencia_sin_empleado": 2109.510845808075,
+        "cambio_diferencia": 63.864013444897864,
+        "cambio_absoluto_media": 9.091946022793309,
+        "cambio_absoluto_diferencia": 63.864013444897864
+      },
+      {
+        "EmployeeNumber": 1038,
+        "MonthlyIncome": 19845,
+        "Attrition": "Yes",
+        "media_sin_empleado": 6493.84887678693,
+        "cambio_media": -9.082415730076718,
+        "diferencia_sin_empleado": 2109.451523774176,
+        "cambio_diferencia": 63.80469141099911,
+        "cambio_absoluto_media": 9.082415730076718,
+        "cambio_absoluto_diferencia": 63.80469141099911
+      },
+      {
+        "EmployeeNumber": 58,
+        "MonthlyIncome": 19545,
+        "Attrition": "Yes",
+        "media_sin_empleado": 6494.053097345132,
+        "cambio_media": -8.878195171874722,
+        "diferencia_sin_empleado": 2108.180337333498,
+        "cambio_diferencia": 62.53350497032079,
+        "cambio_absoluto_media": 8.878195171874722,
+        "cambio_absoluto_diferencia": 62.53350497032079
+      },
+      {
+        "EmployeeNumber": 825,
+        "MonthlyIncome": 19246,
+        "Attrition": "Yes",
+        "media_sin_empleado": 6494.256637168141,
+        "cambio_media": -8.674655348865599,
+        "diferencia_sin_empleado": 2106.9133881809557,
+        "cambio_diferencia": 61.26655581777868,
+        "cambio_absoluto_media": 8.674655348865599,
+        "cambio_absoluto_diferencia": 61.26655581777868
+      },
+      {
+        "EmployeeNumber": 1277,
+        "MonthlyIncome": 18824,
+        "Attrition": "Yes",
+        "media_sin_empleado": 6494.543907420014,
+        "cambio_media": -8.387385096993057,
+        "diferencia_sin_empleado": 2105.1252525877353,
+        "cambio_diferencia": 59.47842022455825,
+        "cambio_absoluto_media": 8.387385096993057,
+        "cambio_absoluto_diferencia": 59.47842022455825
+      }
+    ]
+  },
+  "recomendaciones_s3": [
+    "Conservar el dataset completo como analisis principal.",
+    "Distinguir estabilidad del signo y sensibilidad de la magnitud.",
+    "Examinar cargo, nivel laboral y experiencia como posibles factores.",
+    "Revisar redundancia entre edad, experiencia y antiguedad.",
+    "Conservar EmployeeNumber como identificador de trazabilidad.",
+    "Distinguir incertidumbre de estimadores y escenarios con parametros fijos.",
+    "No generalizar a una empresa real ni atribuir causalidad."
+  ]
+}
