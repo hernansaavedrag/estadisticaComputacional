@@ -1,0 +1,5 @@
+﻿par,rho_s1,categoria_s1,ee_bootstrap,coef_variacion,estabilidad_signo,estabilidad_categoria,categorias_observadas
+MonthlyIncome – TotalWorkingYears,0.71002431405650179,muy fuerte,0.015347329965629108,0.021615217481704169,1,0.73939999999999995,"muy fuerte: 73,94%, fuerte: 26,06%"
+Age – TotalWorkingYears,0.65689582321316198,fuerte,0.016755114053936541,0.025506501125216508,1,0.99590000000000001,"fuerte: 99,59%, muy fuerte: 0,41%"
+YearsAtCompany – TotalWorkingYears,0.5941932530497811,fuerte,0.021638521173882135,0.036416638968583638,1,1,"fuerte: 100,00%"
+DistanceFromHome – MonthlyIncome,0.0025124484208233879,despreciable,0.025905225901643014,10.31074934193207,0.54090000000000005,0.99960000000000004,"despreciable: 99,96%, débil: 0,04%"
