@@ -80,6 +80,26 @@
       "metodo": "Spearman y bootstrap pareado BCa",
       "valoracion": "Signo incierto; compatible con asociacion pequena o nula",
       "recomendacion_s3": "Examinar asociaciones estructurales y redundancia; no interpretar como causalidad"
+    },
+    {
+      "bloque": "Diferencia de ingreso",
+      "resultado": "Diferencia de medias: permanece - sale",
+      "estimacion": 2045.646832363177,
+      "ic95_inferior": 1499.6818266000778,
+      "ic95_superior": 2547.2511826563778,
+      "metodo": "Bootstrap independiente por grupo, BCa, 10.000 remuestras",
+      "valoracion": "IC positivo; diferencia media sensible a la cola alta",
+      "recomendacion_s3": "Conservar ambos parámetros y sus intervalos; examinar cargo, nivel laboral y experiencia"
+    },
+    {
+      "bloque": "Diferencia de ingreso",
+      "resultado": "Diferencia de medianas: permanece - sale",
+      "estimacion": 2002.0,
+      "ic95_inferior": 1438.0,
+      "ic95_superior": 2460.4960430756582,
+      "metodo": "Bootstrap independiente por grupo, BCa, 10.000 remuestras",
+      "valoracion": "IC positivo; complemento menos sensible a extremos",
+      "recomendacion_s3": "Conservar ambos parámetros y sus intervalos; examinar cargo, nivel laboral y experiencia"
     }
   ],
   "permutacion": [
@@ -217,6 +237,42 @@
     "Revisar redundancia entre edad, experiencia y antiguedad.",
     "Conservar EmployeeNumber como identificador de trazabilidad.",
     "Distinguir incertidumbre de estimadores y escenarios con parametros fijos.",
-    "No generalizar a una empresa real ni atribuir causalidad."
+    "No generalizar a una empresa real ni atribuir causalidad.",
+    "Evaluar recall de Attrition=Yes, precisión, F1, ROC-AUC y PR-AUC, junto con la matriz de confusión; no depender únicamente de la exactitud.",
+    "Evaluar colinealidad o redundancia entre ingreso, experiencia, edad y antigüedad; considerar selección de variables o regularización según el modelo.",
+    "Ajustar selección de variables, escalado y cualquier remuestreo solo con los datos de entrenamiento dentro de la validación.",
+    "Interpretar los hallazgos como práctica metodológica con datos sintéticos, sin derivar directamente políticas empresariales."
+  ],
+  "bootstrap_diferencias_ingreso": [
+    {
+      "estadistico": "Diferencia de medias",
+      "comparacion": "permanece - sale",
+      "n_permanece": 1233,
+      "n_sale": 237,
+      "remuestras": 10000,
+      "estimacion": 2045.646832363177,
+      "error_estandar_bootstrap": 269.67353380246504,
+      "percentil_inferior": 1512.6993013849108,
+      "percentil_superior": 2559.327445922777,
+      "bca_inferior": 1499.6818266000778,
+      "bca_superior": 2547.2511826563778,
+      "semilla": 42,
+      "flujo": 6
+    },
+    {
+      "estadistico": "Diferencia de medianas",
+      "comparacion": "permanece - sale",
+      "n_permanece": 1233,
+      "n_sale": 237,
+      "remuestras": 10000,
+      "estimacion": 2002.0,
+      "error_estandar_bootstrap": 286.2199448935652,
+      "percentil_inferior": 1304.0,
+      "percentil_superior": 2410.0249999999996,
+      "bca_inferior": 1438.0,
+      "bca_superior": 2460.4960430756582,
+      "semilla": 42,
+      "flujo": 7
+    }
   ]
 }
