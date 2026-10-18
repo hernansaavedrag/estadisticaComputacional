@@ -52,7 +52,7 @@ El notebook integrado organiza el trabajo en cuatro bloques:
 | Integrante | Aporte principal |
 | --- | --- |
 | Hernán Saavedra | Referencias S1, Monte Carlo, convergencia e integración del proyecto. |
-| Lenin Salas | Bootstrap percentil y BCa de medias, estabilidad de correlaciones y visualizaciones. |
+| Lenin Morales | Bootstrap percentil y BCa de medias, estabilidad de correlaciones y visualizaciones. |
 | Rodrigo Gómez | Permutación, jackknife y análisis de sensibilidad. |
 | Equipo completo | Discusión de resultados, revisión e informe técnico. |
 
@@ -68,9 +68,31 @@ Los notebooks individuales se conservan en [S2/notebooks](S2/notebooks/) como re
 
 ### Archivos de entrada para Sumativa 3
 
-- [S2_resultados_validados_S3.csv](S2/resultados/S2_resultados_validados_S3.csv): siete estimaciones —tres medias y cuatro correlaciones— con intervalos, valoración y recomendaciones.
+- [S2_resultados_validados_S3.csv](S2/resultados/S2_resultados_validados_S3.csv): nueve estimaciones: tres medias, cuatro correlaciones y dos diferencias
+de ingreso entre permanencia y salida —diferencia de medias y de medianas—.
 - [S2_reporte_validado_S3.json](S2/resultados/S2_reporte_validado_S3.json): reporte complementario con permutación, sensibilidad, Monte Carlo y empleados influyentes.
 - [rodrigo_jackknife_influencia.csv](S2/resultados/rodrigo_jackknife_influencia.csv): influencia individual sobre la media global y la diferencia entre grupos.
+
+### Ampliación según retroalimentación de Sumativa 1
+
+Se incorporaron 10.000 remuestras independientes dentro de cada grupo
+de Attrition para estimar las diferencias de medias y medianas de ingreso
+mensual, manteniendo el orden permanece − sale.
+
+Se calcularon intervalos del 95 % por los métodos percentil y BCa.
+El intervalo de la diferencia de medias concuerda aproximadamente con
+el intervalo de Welch de S1. Los intervalos de ambas diferencias excluyen
+el cero y mantienen una dirección positiva, bajo los supuestos del análisis.
+
+La diferencia de medianas complementa el estudio por la asimetría del
+ingreso. La magnitud de la diferencia media continúa siendo sensible
+a la exclusión conjunta de ingresos altos.
+
+Para S3 se recomienda evaluar recall de la clase de salida, precisión,
+F1, ROC-AUC y PR-AUC junto con la matriz de confusión, y examinar
+colinealidad o redundancia entre ingreso, experiencia, edad y antigüedad.
+Los resultados corresponden a datos sintéticos y no justifican
+directamente políticas empresariales.
 
 ## Ejecución reproducible
 
