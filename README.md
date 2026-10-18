@@ -52,7 +52,7 @@ El notebook integrado organiza el trabajo en cuatro bloques:
 | Integrante | Aporte principal |
 | --- | --- |
 | Hernán Saavedra | Referencias S1, Monte Carlo, convergencia e integración del proyecto. |
-| Lenin Salas | Bootstrap percentil y BCa de medias, estabilidad de correlaciones y visualizaciones. |
+| Lenin Morales | Bootstrap percentil y BCa de medias, estabilidad de correlaciones y visualizaciones. |
 | Rodrigo Gómez | Permutación, jackknife y análisis de sensibilidad. |
 | Equipo completo | Discusión de resultados, revisión e informe técnico. |
 
