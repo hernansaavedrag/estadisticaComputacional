@@ -1,0 +1,25 @@
+{
+  "semilla": 42,
+  "objetivo": "Attrition",
+  "clase_positiva": "Yes = 1: empleado que sale",
+  "predictores": [
+    "OverTime",
+    "MonthlyIncome",
+    "YearsAtCompany",
+    "JobSatisfaction"
+  ],
+  "variables_estandarizadas": [
+    "MonthlyIncome",
+    "YearsAtCompany",
+    "JobSatisfaction"
+  ],
+  "codificacion_OverTime": {
+    "No": 0,
+    "Yes": 1
+  },
+  "mediana_ingreso_entrenamiento": 5067.0,
+  "n_entrenamiento": 1029,
+  "n_prueba": 441,
+  "umbral_inicial": 0.5,
+  "ajuste_imputacion_y_escalado": "Solo entrenamiento"
+}
