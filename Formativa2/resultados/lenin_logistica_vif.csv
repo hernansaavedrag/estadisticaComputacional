@@ -1,6 +1,6 @@
 Término,VIF,Interpretación
 const,1.0,Intercepto: no se interpreta
-OverTime,1.0026484962164655,Colinealidad despreciable
+OverTime,1.0026484962164657,Colinealidad despreciable
 MonthlyIncome,1.3005056009317564,Colinealidad despreciable
-YearsAtCompany,1.2993529931336236,Colinealidad despreciable
-JobSatisfaction,1.000107064970524,Colinealidad despreciable
+YearsAtCompany,1.2993529931336234,Colinealidad despreciable
+JobSatisfaction,1.0001070649705237,Colinealidad despreciable

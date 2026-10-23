@@ -131,3 +131,40 @@ El remuestreo supone observaciones independientes; no corrige sesgos de selecci�
 **Estado:** análisis computacional integrado y archivos para S3 disponibles. El informe técnico de Sumativa 2 está pendiente de elaboración y revisión en la plantilla del profesor.
 
 La entrega en Canvas debe incluir **PDF de máximo 7 páginas + notebook `.ipynb` + enlace al repositorio**. La disponibilidad de los archivos en GitHub no sustituye esa entrega.
+
+## Formativa 2: modelamiento predictivo
+
+Notebook integrado de esta entrega:
+
+[F2_IBM_HR_Modelamiento.ipynb](Formativa2/notebooks/F2_IBM_HR_Modelamiento.ipynb)
+
+Integra los aportes de Hernán Saavedra, Lenin Morales y Rodrigo Gómez:
+
+- Preparación fundamentada en los resultados de S1 y S2.
+- Generación reproducible de 147 faltantes MCAR en ingreso mensual.
+- Partición 70/30 estratificada por Attrition.
+- Imputación y estandarización ajustadas solo con entrenamiento.
+- Regresión logística con cuatro predictores, odds ratios y VIF.
+- Matriz de confusión, métricas, curva ROC y síntesis final.
+
+### Ejecución de Formativa 2
+
+Instalar las dependencias específicas:
+
+```bash
+python -m pip install -r Formativa2/requirements.txt
+```
+
+Abrir el notebook integrado, seleccionar el entorno correspondiente
+y ejecutar todas las celdas en orden.
+
+Los notebooks individuales se conservan como registro de los aportes.
+La versión MCAR, los valores originales ocultados y la partición se
+guardan para reutilizarlos en Sumativa 3.
+
+**Resultados en prueba:** accuracy 84,35 %, precision 66,67 %,
+recall 5,63 %, F1 0,1039 y AUC 0,7724. Con umbral 0,5 se detectan
+4 de las 71 salidas, lo que evidencia la necesidad de mejoras para S3.
+
+**Entrega en Canvas:** archivo `F2_IBM_HR_Modelamiento.ipynb`.
+
