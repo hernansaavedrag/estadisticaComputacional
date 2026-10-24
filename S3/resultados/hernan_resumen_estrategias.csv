@@ -1,0 +1,7 @@
+Estrategia,Conjunto,Registros,Ingresos faltantes
+eliminacion,train,933,0
+eliminacion,test,390,0
+mediana,train,1029,0
+mediana,test,441,0
+regresion,train,1029,0
+regresion,test,441,0

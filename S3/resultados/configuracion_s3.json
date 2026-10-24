@@ -1,0 +1,39 @@
+{
+  "semilla": 42,
+  "estrategia_principal": "regresion",
+  "estrategias_comparacion": [
+    "eliminacion",
+    "mediana",
+    "regresion"
+  ],
+  "variable_imputada": "MonthlyIncome",
+  "predictores_imputacion": [
+    "TotalWorkingYears",
+    "Age",
+    "YearsAtCompany"
+  ],
+  "mediana_entrenamiento": 5067.0,
+  "predictores_logistica_base": [
+    "OverTime",
+    "MonthlyIncome",
+    "YearsAtCompany",
+    "JobSatisfaction"
+  ],
+  "objetivo": "Attrition",
+  "codificacion_objetivo": {
+    "No": 0,
+    "Yes": 1
+  },
+  "pesos_balanceados_entrenamiento_principal": {
+    "0": 0.5961761297798378,
+    "1": 3.0993975903614457
+  },
+  "particion": "Formativa2/datos/particion_70_30.csv",
+  "datos_MCAR": "Formativa2/datos/IBM_HR_MCAR.csv",
+  "referencia_F2": {
+    "recall": 0.056338028169014086,
+    "AUC": 0.7724210125618576,
+    "umbral": 0.5
+  },
+  "validacion": "Ajustar imputacion, escalado, seleccion y pesos dentro del entrenamiento de cada pliegue."
+}
