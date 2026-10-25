@@ -1,0 +1,136 @@
+{
+  "responsable": "Lenin Morales",
+  "modelo_seleccionado": "M2c",
+  "descripcion": "Variables de M2 (stepwise AIC) con forma funcional corregida: ln(1+YearsAtCompany), ln(Age) e indicador JobLevel = 1",
+  "modelo_preliminar": {
+    "modelo": "M2",
+    "variables": [
+      "OverTime",
+      "YearsAtCompany",
+      "JobSatisfaction",
+      "Age",
+      "DistanceFromHome",
+      "JobLevel",
+      "Department"
+    ]
+  },
+  "transformaciones": {
+    "log1p_X": "ln(1 + X)",
+    "log_X": "ln(X)",
+    "ind_X_k": "1 si X == k",
+    "estandarizacion": "z con media y DE (ddof=1) del entrenamiento; no se aplica a OverTime, Department ni ind_*"
+  },
+  "variables": [
+    "OverTime",
+    "log1p_YearsAtCompany",
+    "JobSatisfaction",
+    "log_Age",
+    "DistanceFromHome",
+    "ind_JobLevel_1",
+    "Department"
+  ],
+  "columnas_diseno": [
+    "const",
+    "OverTime",
+    "log1p_YearsAtCompany",
+    "JobSatisfaction",
+    "log_Age",
+    "DistanceFromHome",
+    "ind_JobLevel_1",
+    "Dept_Human Resources",
+    "Dept_Sales"
+  ],
+  "variables_candidatas": [
+    "OverTime",
+    "MonthlyIncome",
+    "YearsAtCompany",
+    "JobSatisfaction",
+    "Age",
+    "TotalWorkingYears",
+    "DistanceFromHome",
+    "JobLevel",
+    "Department"
+  ],
+  "especificaciones": {
+    "M1": [
+      "OverTime",
+      "MonthlyIncome",
+      "YearsAtCompany",
+      "JobSatisfaction"
+    ],
+    "M2": [
+      "OverTime",
+      "YearsAtCompany",
+      "JobSatisfaction",
+      "Age",
+      "DistanceFromHome",
+      "JobLevel",
+      "Department"
+    ],
+    "M3": [
+      "OverTime",
+      "YearsAtCompany",
+      "JobSatisfaction",
+      "Age",
+      "Department"
+    ],
+    "M2c": [
+      "OverTime",
+      "log1p_YearsAtCompany",
+      "JobSatisfaction",
+      "log_Age",
+      "DistanceFromHome",
+      "ind_JobLevel_1",
+      "Department"
+    ]
+  },
+  "ponderacion": "balanceada",
+  "pesos_entrenamiento": {
+    "0": 0.5961761297798378,
+    "1": 3.0993975903614457
+  },
+  "formula_pesos": "n / (2 * n_clase), recalculados en cada pliegue",
+  "covarianza": "HC0 (sandwich)",
+  "umbral": 0.5,
+  "objetivo": "Attrition",
+  "codificacion_objetivo": {
+    "No": 0,
+    "Yes": 1
+  },
+  "imputacion": {
+    "estrategia": "regresion",
+    "variable": "MonthlyIncome",
+    "predictores": [
+      "TotalWorkingYears",
+      "Age",
+      "YearsAtCompany"
+    ]
+  },
+  "datos_MCAR": "Formativa2/datos/IBM_HR_MCAR.csv",
+  "particion": "Formativa2/datos/particion_70_30.csv",
+  "semilla": 42,
+  "validacion": {
+    "esquema": "RepeatedStratifiedKFold(n_splits=5, n_repeats=5, random_state=42)",
+    "dentro_de_cada_pliegue": [
+      "imputacion",
+      "estandarizacion",
+      "seleccion",
+      "pesos"
+    ],
+    "regla": "recall >= 0.5; AUC y F1 a <= 1 EE del mejor; menor numero de parametros. Forma funcional: M2c si no empeora AUC ni F1 ponderados y reduce AIC",
+    "metricas_de": "S3/resultados/lenin_validacion_m2_vs_m2c.csv (especificacion fija, ponderado)",
+    "AUC_media": 0.776811930139346,
+    "Recall_media": 0.7067736185383243,
+    "Precision_media": 0.329241343261388,
+    "F1_media": 0.4486605506460027
+  },
+  "prueba_usada_en_seleccion": false,
+  "codigo_reajuste": "S3/src/lenin_modelado.py :: reajustar_modelo_final(RAIZ)",
+  "archivos": {
+    "coeficientes": "S3/resultados/lenin_coeficientes_modelo_final.csv",
+    "parametros_transformacion": "S3/resultados/lenin_parametros_transformacion.json",
+    "validacion": "S3/resultados/lenin_validacion_comparacion.csv",
+    "validacion_m2_vs_m2c": "S3/resultados/lenin_validacion_m2_vs_m2c.csv",
+    "probabilidades_prueba": "S3/resultados/lenin_probabilidades_prueba.csv"
+  }
+}

@@ -1,0 +1,513 @@
+Variables,Numero variables,Parametros,AIC,BIC,Delta BIC
+"OverTime, YearsAtCompany, JobSatisfaction, Age, Department",5,7,788.6557614527694,823.2101606036077,0.0
+"OverTime, YearsAtCompany, JobSatisfaction, Age",4,5,798.683283581117,823.3649972602873,0.15483665667954938
+"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome",5,6,794.9994209442615,824.6174773592658,1.4073167556580302
+"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",6,8,785.295914659933,824.7866565466054,1.576495942997667
+"OverTime, YearsAtCompany, JobSatisfaction, Age, JobLevel, Department",6,8,785.3538474728663,824.8445893595386,1.6344287559309123
+"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",7,9,780.7858159368609,825.2129005593673,2.00273995575958
+"OverTime, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",6,8,786.5451446500797,826.0358865367521,2.8257259331443265
+"OverTime, JobSatisfaction, Age, JobLevel, Department",5,7,791.6033840924099,826.1577832432482,2.9476226396404854
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, Department",6,8,787.4411785268177,826.93192041349,3.7217598098823146
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",7,9,783.5383507596349,827.9654353821413,4.75527477853359
+"OverTime, YearsAtCompany, Age",3,4,808.5641299019657,828.3095008453018,5.099340241694108
+"OverTime, YearsAtCompany, JobSatisfaction, Age, JobLevel",5,6,798.7132380422245,828.3312944572288,5.121133853621018
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, Department",6,8,788.9060303893065,828.3967722759788,5.1866116723711
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears",5,6,798.8482177730299,828.4662741880342,5.25611358442643
+"OverTime, YearsAtCompany, Age, Department",4,6,799.0225904606488,828.640646875653,5.4304862720453
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age",5,6,799.0934480978227,828.711504512827,5.501343909219258
+"OverTime, JobSatisfaction, Age, TotalWorkingYears",4,5,804.2499151883121,828.9316288674823,5.721468263874613
+"OverTime, YearsAtCompany, Age, DistanceFromHome",4,5,804.3147309246968,828.9964446038671,5.786284000259343
+"OverTime, JobSatisfaction, TotalWorkingYears",3,4,809.2684970842602,829.0138680275963,5.803707423988612
+"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel",6,7,794.4613580282619,829.0157571791002,5.805596575492473
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, Department",5,7,794.6774613217251,829.2318604725634,6.021699868955693
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",6,7,794.7905877484136,829.3449868992519,6.134826295644189
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",7,9,785.0837394182248,829.5108240407312,6.3006634371234895
+"OverTime, YearsAtCompany, Age, DistanceFromHome, Department",5,7,794.9970918402656,829.551490991104,6.341330387496214
+"OverTime, JobSatisfaction, TotalWorkingYears, Department",4,6,799.9495058744471,829.5675622894514,6.3574016858436835
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",5,6,799.9512664988476,829.5693229138519,6.359162310244187
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome",6,7,795.150054301864,829.7044534527023,6.494292849094563
+"OverTime, JobSatisfaction, TotalWorkingYears, DistanceFromHome",4,5,805.0953596363365,829.7770733155068,6.566912711899022
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,790.4366774643622,829.9274193510346,6.717258747426854
+"OverTime, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",5,7,795.7115873716525,830.2659865224908,7.055825918883102
+"OverTime, MonthlyIncome, JobSatisfaction, Age, Department",5,7,795.8284771453368,830.3828762961751,7.172715692567408
+"OverTime, YearsAtCompany, Age, DistanceFromHome, JobLevel, Department",6,8,790.8956400075122,830.3863818941845,7.176221290576791
+"OverTime, YearsAtCompany, Age, JobLevel, Department",5,7,796.0656008043557,830.619999955194,7.409839351586243
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears",4,5,806.4535748996432,831.1352885788134,7.925127975205669
+"OverTime, YearsAtCompany, JobSatisfaction, JobLevel, Department",5,7,796.62332745558,831.1777266064183,7.9675660028105995
+"OverTime, MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, Department",6,8,791.6976817251068,831.1884236117792,7.978263008171439
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, Department",5,7,796.7855233787977,831.339922529636,8.129761926028323
+"OverTime, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel, Department",6,8,791.894608975578,831.3853508622503,8.175190258642601
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,787.0636917663445,831.4907763888509,8.280615785243185
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",6,8,792.0838505942398,831.5745924809122,8.364431877304469
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, JobLevel, Department",7,9,787.2547904524481,831.6818750749545,8.471714471346786
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",7,9,787.3537346511973,831.7808192737037,8.570658670096009
+"OverTime, Age, DistanceFromHome, JobLevel, Department",5,7,797.2775034020814,831.8319025529197,8.621741949311968
+"OverTime, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,792.3913221781424,831.8820640648148,8.67190346120708
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",8,10,782.6006258337788,831.9640531921193,8.753892588511576
+"OverTime, JobSatisfaction, TotalWorkingYears, JobLevel, Department",5,7,797.4301485991383,831.9845477499766,8.774387146368895
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome",5,6,802.4296326005376,832.0476890155419,8.837528411934159
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",8,10,782.783621707032,832.1470490653725,8.936888461764738
+"OverTime, JobSatisfaction, Age, JobLevel",4,5,807.4866178925273,832.1683315716975,8.958170968089803
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",6,8,792.8180765692173,832.3088184558897,9.098657852281917
+"OverTime, Age, JobLevel, Department",4,6,802.8828701314375,832.5009265464417,9.290765942834014
+"OverTime, JobSatisfaction, Age, DistanceFromHome, JobLevel",5,6,802.9879887547038,832.6060451697081,9.395884566100335
+"OverTime, MonthlyIncome, YearsAtCompany, Age, Department",5,7,798.0787568441672,832.6331559950055,9.422995391397762
+"OverTime, MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",7,9,788.4647076155246,832.891792238031,9.681631634423297
+"OverTime, MonthlyIncome, JobSatisfaction, Age, JobLevel, Department",6,8,793.5807220906086,833.0714639772809,9.861303373673195
+"OverTime, MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, Department",6,8,793.5856001608431,833.0763420475155,9.866181443907749
+"OverTime, YearsAtCompany, Age, JobLevel",4,5,808.7108501487197,833.39256382789,10.182403224282211
+"OverTime, JobSatisfaction, DistanceFromHome, JobLevel, Department",5,7,798.8812718424892,833.4356709933276,10.22551038971983
+"OverTime, MonthlyIncome, JobSatisfaction, Age",4,5,808.8841949168013,833.5659085959716,10.355747992363831
+"OverTime, YearsAtCompany, Age, DistanceFromHome, JobLevel",5,6,803.948356178317,833.5664125933213,10.356251989713542
+"OverTime, YearsAtCompany, Age, TotalWorkingYears",4,5,809.0124483911737,833.694162070344,10.484001466736231
+"OverTime, JobSatisfaction, JobLevel, Department",4,6,804.0948282864927,833.7128847014969,10.5027240978892
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, Department",7,9,789.3492358795238,833.7763205020302,10.566159898422484
+"OverTime, MonthlyIncome, YearsAtCompany, Age",4,5,809.1325963750712,833.8143100542414,10.604149450633713
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome",5,6,804.3863162381454,834.0043726531496,10.794212049541898
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, Department",5,7,799.4986746404641,834.0530737913024,10.842913187694649
+"OverTime, JobSatisfaction, Age",3,4,814.4708855221941,834.2162564655303,11.006095861922518
+"OverTime, MonthlyIncome, YearsAtCompany, Age, DistanceFromHome",5,6,804.6941098605553,834.3121662755595,11.102005671951815
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, Department",6,8,794.9080410598892,834.3987829465616,11.188622342953863
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,794.98237840816,834.4731202948324,11.262959691224637
+"OverTime, JobSatisfaction, Age, Department",4,6,804.8662443483893,834.4843007633935,11.274140159785816
+"OverTime, MonthlyIncome, JobSatisfaction, Age, DistanceFromHome",5,6,804.9160460298287,834.534102444833,11.323941841225292
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel, Department",6,8,795.0866008449148,834.5773427315871,11.36718212797939
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",8,10,785.3729403502714,834.7363677086119,11.526207105004119
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,790.3317105846251,834.7587952071315,11.548634603523737
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel",6,7,800.2399811921659,834.7943803430043,11.58421973939653
+"OverTime, Age, TotalWorkingYears",3,4,815.1049582816509,834.850329224987,11.640168621379303
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, JobLevel",5,6,805.2453075514554,834.8633639664597,11.653203362851968
+"OverTime, Age, TotalWorkingYears, DistanceFromHome",4,5,810.2273146260598,834.90902830523,11.698867701622248
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, Department",5,7,800.4033628053007,834.957761956139,11.74760135253132
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",7,9,790.5390991316382,834.9661837541446,11.756023150536862
+"OverTime, JobSatisfaction, TotalWorkingYears, JobLevel",4,5,810.3020984724079,834.9838121515781,11.773651547970417
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears",6,7,800.531199863033,835.0855990138713,11.875438410263541
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Department",5,7,800.5984496280248,835.1528487788631,11.942688175255398
+"OverTime, TotalWorkingYears",2,3,820.4382186938367,835.2472469013388,12.037086297731094
+"OverTime, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,800.6976545728272,835.2520537236655,12.041893120057807
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, JobLevel",6,7,800.7017712679985,835.2561704188369,12.046009815229127
+"OverTime, TotalWorkingYears, DistanceFromHome",3,4,815.6720647481245,835.4174356914607,12.207275087852963
+"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",7,8,795.9407828023516,835.431524689024,12.221364085416212
+"OverTime, JobSatisfaction, Age, DistanceFromHome",4,5,810.7724037737473,835.4541174529176,12.243956849309825
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears",5,6,805.8783450622212,835.4964014772255,12.286240873617771
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",6,8,796.0097397638167,835.5004816504891,12.290321046881331
+"OverTime, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,805.8833486431859,835.5014050581901,12.291244454582397
+"OverTime, Age, TotalWorkingYears, DistanceFromHome, Department",5,7,801.0156852141993,835.5700843650376,12.359923761429854
+"OverTime, Age, TotalWorkingYears, Department",4,6,806.0104172467964,835.6284736618006,12.418313058192894
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears",4,5,810.9906566397406,835.6723703189108,12.46220971530306
+"OverTime, JobSatisfaction, Age, DistanceFromHome, Department",5,7,801.3610877668236,835.915486917662,12.705326314054219
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",7,8,796.4386401138323,835.9293820005047,12.719221396896955
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel",7,8,796.4610758893166,835.951817775989,12.741657172381224
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",6,7,801.5619877895397,836.116386940378,12.90622633677026
+"OverTime, TotalWorkingYears, DistanceFromHome, Department",4,6,806.5111149985441,836.1291714135484,12.919010809940687
+"OverTime, TotalWorkingYears, Department",3,5,811.5344114423481,836.2161251215183,13.00596451791057
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, Department",6,8,796.8532793595975,836.3440212462699,13.133860642662171
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome",5,6,806.7914031557887,836.4094595707929,13.1992989671852
+"OverTime, YearsAtCompany, DistanceFromHome, JobLevel, Department",5,7,802.1265270036415,836.6809261544798,13.470765550872102
+"OverTime, MonthlyIncome, Age, Department",4,6,807.0925736170102,836.7106300320145,13.500469428406745
+"OverTime, YearsAtCompany, TotalWorkingYears",3,4,817.1051043883497,836.8504753316859,13.640314728078124
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, Department",6,8,797.3877178140802,836.8784597007526,13.668299097144882
+"OverTime, MonthlyIncome, Age, DistanceFromHome, Department",5,7,802.4569851187639,837.0113842696022,13.801223665994485
+"OverTime, YearsAtCompany, JobLevel, Department",4,6,807.4371790708344,837.0552354858387,13.84507488223096
+"OverTime, MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, JobLevel, Department",7,9,792.6574248994532,837.0845095219596,13.87434891835187
+"OverTime, YearsAtCompany, TotalWorkingYears, DistanceFromHome",4,5,812.4919427859636,837.1736564651338,13.963495861526098
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,792.8956222774577,837.3227068999641,14.112546296356413
+"OverTime, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,797.8477605483422,837.3385024350146,14.128341831406829
+"OverTime, YearsAtCompany, TotalWorkingYears, Department",4,6,807.7943483867913,837.4124048017956,14.202244198187827
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel",5,6,807.80867807178,837.4267344867843,14.21657388317658
+"OverTime, MonthlyIncome, YearsAtCompany, Age, JobLevel, Department",6,8,797.9435681950594,837.4343100817317,14.22414947812399
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, JobLevel, Department",6,8,798.0609837834053,837.5517256700776,14.341565066469911
+"OverTime, Age, JobLevel",3,4,817.8771364682601,837.6225074115963,14.41234680798857
+"OverTime, Age, DistanceFromHome, JobLevel",4,5,812.9632244187294,837.6449380978996,14.434777494291893
+"OverTime, YearsAtCompany, TotalWorkingYears, DistanceFromHome, Department",5,7,803.0941581857636,837.6485573366019,14.438396732994192
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",7,9,793.240967787784,837.6680524102904,14.45789180668271
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears",5,6,808.2159330936711,837.8339895086754,14.623828905067626
+"OverTime, TotalWorkingYears, DistanceFromHome, JobLevel, Department",5,7,803.3197680891013,837.8741672399397,14.66400663633192
+"OverTime, YearsAtCompany, JobSatisfaction, JobLevel",4,5,813.263693553168,837.9454072323382,14.735246628730465
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",8,10,788.6801113571782,838.0435387155187,14.833378111910974
+"OverTime, Age, TotalWorkingYears, JobLevel, Department",5,7,803.4974875422965,838.0518866931349,14.841726089527128
+"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,803.5426832830392,838.0970824338775,14.886921830269785
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, JobLevel, Department",6,8,798.6180293977676,838.10877128444,14.898610680832235
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",7,9,793.8427148667095,838.2697994892159,15.059638885608138
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,793.8582301712124,838.2853147937188,15.075154190111107
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel, Department",7,9,793.8928672718353,838.3199518943417,15.109791290733938
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, JobLevel, Department",6,8,799.0520138044703,838.5427556911427,15.332595087534969
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",8,10,789.2452576912499,838.6086850495903,15.398524445982616
+"OverTime, MonthlyIncome, Age, DistanceFromHome, JobLevel, Department",6,8,799.1582254530695,838.6489673397418,15.438806736134097
+"OverTime, TotalWorkingYears, JobLevel, Department",4,6,809.0436259765934,838.6616823915977,15.451521787989918
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome",6,7,804.1519994092923,838.7063985601307,15.496237956522918
+"OverTime, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel",5,6,809.1442775642425,838.7623339792468,15.552173375639086
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",4,5,814.1678587046235,838.8495723837938,15.639411780186038
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",9,11,784.5731884666378,838.8729585608123,15.662797957204589
+"OverTime, MonthlyIncome, JobSatisfaction, Age, JobLevel",5,6,809.4115865055553,839.0296429205596,15.819482316951849
+"OverTime, DistanceFromHome, JobLevel, Department",4,6,809.4820427927365,839.1000992077408,15.889938604133022
+"OverTime, MonthlyIncome, Age",3,4,819.4079460371909,839.153316980527,15.943156376919319
+"OverTime, MonthlyIncome, Age, JobLevel, Department",5,7,804.8471865190386,839.4015856698769,16.191425066269176
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, Department",6,8,800.0223667780398,839.5131086647121,16.302948061104416
+"OverTime, MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, JobLevel",6,7,804.9665766725161,839.5209758233544,16.3108152197467
+"OverTime, Age",2,3,824.7713549730657,839.5803831805679,16.370222576960145
+"OverTime, MonthlyIncome, Age, DistanceFromHome",4,5,815.0700790039095,839.7517926830798,16.541632079472038
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, Department",7,9,795.4436181057324,839.8707027282388,16.660542124631093
+"OverTime, JobLevel, Department",3,5,815.2328226823797,839.91453636155,16.704375757942216
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, JobLevel",5,6,810.3818199433208,839.9998763583251,16.78971575471735
+"OverTime, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,805.5556347668869,840.1100339177252,16.899873314117485
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome",5,6,810.6319007276109,840.2499571426151,17.039796539007398
+"OverTime, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,800.7693012369887,840.260043123661,17.049882520053302
+"OverTime, Age, DistanceFromHome",3,4,820.5715823046261,840.3169532479623,17.106792644354528
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears",5,6,810.7026010443979,840.3206574594021,17.110496855794395
+"OverTime, MonthlyIncome, YearsAtCompany, Age, JobLevel",5,6,810.7086290095112,840.3266854245155,17.116524820907784
+"OverTime, MonthlyIncome, JobSatisfaction, DistanceFromHome, JobLevel, Department",6,8,800.8715975122792,840.3623393989516,17.152178795343843
+"OverTime, Age, Department",3,5,815.7584402519657,840.4401539311359,17.229993327528177
+"OverTime, MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, JobLevel",6,7,805.9377139662158,840.4921131170541,17.281952513446413
+"OverTime, MonthlyIncome, JobSatisfaction, JobLevel, Department",5,7,806.0439687400785,840.5983678909168,17.388207287309115
+"OverTime, Age, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,810.9827462695966,840.6008026846009,17.39064208099319
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome",6,7,806.0870107418659,840.6414098927042,17.431249289096513
+"OverTime, Age, TotalWorkingYears, JobLevel",4,5,816.049182133082,840.7308958122522,17.52073520864451
+"OverTime, MonthlyIncome, JobSatisfaction, Department",4,6,811.1137505003619,840.7318069153662,17.521646311758445
+"OverTime, YearsAtCompany, TotalWorkingYears, JobLevel, Department",5,7,806.1779121025888,840.7323112534272,17.522150649819423
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,801.2991538390472,840.7898957257196,17.579735122111856
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, Department",5,7,806.3145095432942,840.8689086941325,17.658748090524796
+"OverTime, MonthlyIncome, YearsAtCompany, Department",4,6,811.4032137094104,841.0212701244146,17.811109520806895
+"OverTime, TotalWorkingYears, DistanceFromHome, JobLevel",4,5,816.4546498842926,841.1363635634629,17.926202959855118
+"OverTime, TotalWorkingYears, JobLevel",3,4,821.4161857885146,841.1615567318507,17.951396128243005
+"OverTime, Age, DistanceFromHome, Department",4,6,811.6316042936742,841.2496607086784,18.039500105070715
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel, Department",7,9,796.852649485911,841.2797341084174,18.069573504809682
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",8,10,791.9720404254517,841.3354677837922,18.12530718018445
+"OverTime, MonthlyIncome, Age, TotalWorkingYears",4,5,816.7362512223643,841.4179649015346,18.207804297926828
+"OverTime, MonthlyIncome, TotalWorkingYears, DistanceFromHome, Department",5,7,806.9474943285381,841.5018934793765,18.29173287576873
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome",5,6,811.8948459852992,841.5129024003035,18.302741796695727
+"OverTime, MonthlyIncome, TotalWorkingYears, Department",4,6,812.0374109682188,841.655467383223,18.445306779615294
+"OverTime, MonthlyIncome, YearsAtCompany, DistanceFromHome, Department",5,7,807.1223173623292,841.6767165131675,18.466555909559816
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, JobLevel",6,7,807.1650984269577,841.719497577796,18.509336974188273
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel",7,8,802.2328104038443,841.7235522905166,18.513391686908903
+"OverTime, MonthlyIncome, JobSatisfaction, DistanceFromHome, Department",5,7,807.1717529990624,841.7261521499007,18.51599154629298
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, JobLevel",5,6,812.1452830215366,841.7633394365408,18.5531788329331
+"OverTime, MonthlyIncome, TotalWorkingYears",3,4,822.1611961166323,841.9065670599684,18.696406456360705
+"OverTime, MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",7,8,802.5306837578605,842.0214256445329,18.81126504092515
+"OverTime, MonthlyIncome, TotalWorkingYears, DistanceFromHome",4,5,817.4128206112248,842.094534290395,18.884373686787285
+"OverTime, MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,807.6259182503389,842.1803174011773,18.97015679756953
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",8,9,797.8931574463617,842.3202420688681,19.11008146526035
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, Department",5,7,808.4573681640314,843.0117673148698,19.801606711262025
+"OverTime, YearsAtCompany, JobLevel",3,4,823.3316557200073,843.0770266633435,19.8668660597358
+"OverTime, YearsAtCompany, TotalWorkingYears, JobLevel",4,5,818.4383030151439,843.1200166943141,19.9098560907064
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, Department",6,8,803.6531438817764,843.1438857684487,19.933725164841007
+"OverTime, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,813.6194470938569,843.2375035088612,20.027342905253477
+"OverTime, YearsAtCompany, DistanceFromHome, JobLevel",4,5,818.7218392002676,843.4035528794378,20.193392275830092
+"OverTime, JobSatisfaction, JobLevel",3,4,823.7058720027422,843.4512429460784,20.24108234247069
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears",4,5,818.8730760206016,843.5547896997718,20.344629096164113
+"OverTime, MonthlyIncome, YearsAtCompany, DistanceFromHome, JobLevel, Department",6,8,804.117044939265,843.6077868259374,20.397626222329677
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,799.3892129850908,843.8162976075972,20.606137003989488
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome",5,6,814.2572660048615,843.8753224198658,20.66516181625809
+"OverTime, MonthlyIncome, YearsAtCompany, JobLevel, Department",5,7,809.4358319612842,843.9902311121225,20.78007050851477
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",8,10,794.640790174068,844.0042175324085,20.794056928800728
+"OverTime, MonthlyIncome, YearsAtCompany",3,4,824.3745846343505,844.1199555776867,20.909794974078977
+"OverTime, JobSatisfaction, DistanceFromHome, JobLevel",4,5,819.452888209049,844.1346018882192,20.924441284611476
+"OverTime, MonthlyIncome, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,804.7024209161939,844.1931628028663,20.98300219925852
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel",6,7,809.751405267933,844.3058044187713,21.095643815163612
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, JobLevel, Department",7,9,799.9428959491293,844.3699805716357,21.159819968027932
+"OverTime, MonthlyIncome, Age, JobLevel",4,5,819.8344342227972,844.5161479019674,21.305987298359696
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, JobLevel",5,6,814.927271728378,844.5453281433822,21.33516753977449
+"OverTime, MonthlyIncome, Age, DistanceFromHome, JobLevel",5,6,814.9605188506476,844.5785752656519,21.368414662044188
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, JobLevel, Department",6,8,805.2323285537366,844.723070440409,21.512909836801214
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",7,8,805.4169431811456,844.907685067818,21.697524464210233
+"OverTime, YearsAtCompany, JobSatisfaction",3,4,825.2184949227837,844.9638658661199,21.7537052625122
+"OverTime, YearsAtCompany, JobSatisfaction, Department",4,6,815.3909473014178,845.0090037164221,21.798843112814325
+"OverTime, MonthlyIncome, YearsAtCompany, DistanceFromHome",4,5,820.4084707932805,845.0901844724507,21.880023868842954
+"OverTime, MonthlyIncome, TotalWorkingYears, JobLevel, Department",5,7,810.6331904507464,845.1875896015847,21.977428997976972
+"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel",6,7,810.9273782003343,845.4817773511726,22.27161674756485
+"OverTime, MonthlyIncome, DistanceFromHome, JobLevel, Department",5,7,811.4812963149768,846.0356954658151,22.825534862207405
+"OverTime, MonthlyIncome, JobSatisfaction",3,4,826.3597257482238,846.10509669156,22.89493608795226
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,802.3554498425212,846.7825344650277,23.57237386141992
+"OverTime, MonthlyIncome, JobLevel, Department",4,6,817.2023063927736,846.8203628077779,23.61020220417015
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, JobLevel",6,7,812.3689535982396,846.9233527490779,23.713192145470202
+"OverTime, MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel",7,8,807.4765439743328,846.9672858610052,23.757125257397433
+"OverTime, MonthlyIncome, Department",3,5,822.3038118191926,846.9855254983628,23.775364894755057
+"OverTime, YearsAtCompany, JobSatisfaction, DistanceFromHome",4,5,822.5836602910277,847.265373970198,24.055213366590237
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,812.7494247270741,847.3038238779125,24.09366327430473
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, JobLevel, Department",6,8,807.9282962291887,847.4190381158611,24.208877512253366
+"OverTime, MonthlyIncome, DistanceFromHome, Department",4,6,817.8960900030589,847.5141464180632,24.303985814455473
+"OverTime, MonthlyIncome, Age, TotalWorkingYears, JobLevel",5,6,817.9464817094149,847.5645381244192,24.354377520811454
+"OverTime, YearsAtCompany, JobSatisfaction, DistanceFromHome, Department",5,7,813.0226349783006,847.577034129139,24.36687352553122
+"OverTime, MonthlyIncome, JobSatisfaction, DistanceFromHome",4,5,822.8985602876561,847.5802739668263,24.370113363218593
+"OverTime, MonthlyIncome, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,818.1166369156256,847.7346933306299,24.52453272702212
+"OverTime, MonthlyIncome, TotalWorkingYears, JobLevel",4,5,823.2277875622709,847.9095012414411,24.699340637833416
+"OverTime, JobLevel",2,3,833.865278646582,848.6743068540842,25.46414625047646
+"OverTime, DistanceFromHome, JobLevel",3,4,829.2092973348114,848.9546682781476,25.74450767453982
+"OverTime, MonthlyIncome, YearsAtCompany, JobLevel",4,5,825.0600925343624,849.7418062135326,26.531645609924908
+"OverTime, MonthlyIncome, JobSatisfaction, JobLevel",4,5,825.163947566397,849.8456612455673,26.63550064195954
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, JobLevel",5,6,820.3672462748699,849.9853026898742,26.77514208626644
+"OverTime, MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,815.4468620511119,850.0012612019502,26.791100598342496
+"OverTime, YearsAtCompany",2,3,835.2311840276009,850.040212235103,26.83005163149528
+"OverTime, MonthlyIncome, YearsAtCompany, DistanceFromHome, JobLevel",5,6,820.5760214007211,850.1940778157253,26.983917212117603
+"OverTime, YearsAtCompany, Department",3,5,825.9296848403728,850.6113985195431,27.401237915935326
+"OverTime, MonthlyIncome, JobSatisfaction, DistanceFromHome, JobLevel",5,6,821.0631207554136,850.6811771704179,27.471016566810135
+"OverTime, MonthlyIncome",2,3,836.7815673122598,851.5905955197619,28.380434916154172
+"OverTime, YearsAtCompany, DistanceFromHome",3,4,832.0535482755029,851.798919218839,28.588758615231313
+"OverTime, YearsAtCompany, DistanceFromHome, Department",4,6,822.9462294779953,852.5642858929996,29.354125289391845
+"OverTime, MonthlyIncome, DistanceFromHome",3,4,833.0114228329599,852.756793776296,29.546633172688303
+"OverTime, MonthlyIncome, JobLevel",3,4,835.4339482544519,855.1793191977881,31.969158594180385
+"OverTime, MonthlyIncome, DistanceFromHome, JobLevel",4,5,830.940247653711,855.6219613328813,32.41180072927352
+"YearsAtCompany, JobSatisfaction, Age",3,4,850.4877318206397,870.2331027639759,47.02294216036819
+"YearsAtCompany, JobSatisfaction, Age, DistanceFromHome",4,5,846.1536772788688,870.835390958039,47.625230354431324
+"YearsAtCompany, JobSatisfaction, Age, Department",4,6,843.0139245807889,872.6319809957931,49.421820392185396
+"YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",5,7,839.0905492357124,873.6449483865507,50.434787782942976
+"OverTime, JobSatisfaction",2,3,858.9949197076119,873.803947915114,50.593787311506276
+"YearsAtCompany, Age",2,3,859.4942743648048,874.303302572307,51.09314196869923
+"YearsAtCompany, Age, DistanceFromHome",3,4,854.6960013858215,874.4413723291577,51.23121172555
+"OverTime, JobSatisfaction, Department",3,5,850.3247938246222,875.0065075037925,51.796346900184744
+"YearsAtCompany, JobSatisfaction, Age, JobLevel, Department",5,7,840.810257441929,875.3646565927673,52.154495989159614
+"YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",6,8,835.9629222342985,875.4536641209709,52.24350351736314
+"YearsAtCompany, JobSatisfaction, Age, JobLevel",4,5,850.9281293600078,875.609843039178,52.3996824355703
+"YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel",5,6,846.1307696922311,875.7488261072353,52.53866550362761
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age",4,5,851.3692421560313,876.0509558352015,52.8407952315938
+"OverTime, JobSatisfaction, DistanceFromHome",3,4,856.3667929197841,876.1121638631203,52.902003259512526
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears",4,5,851.7386730443534,876.4203867235236,53.21022611991589
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome",5,6,846.8317664447748,876.449822859779,53.2396622561713
+"YearsAtCompany, Age, Department",3,5,852.0778036670847,876.7595173462549,53.549356742647205
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",5,6,847.1859081053512,876.8039645203555,53.59380391674779
+"JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",5,7,842.4630271740552,877.0174263248936,53.80726572128583
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, Department",5,7,842.6694017985062,877.2238009493445,54.0136403457368
+"YearsAtCompany, Age, DistanceFromHome, Department",4,6,847.6098003365157,877.22785675152,54.01769614791226
+"JobSatisfaction, TotalWorkingYears",2,3,862.5379288209053,877.3469570284075,54.13679642479974
+"OverTime, JobSatisfaction, DistanceFromHome, Department",4,6,847.7802531322222,877.3983095472265,54.188148943618785
+"JobSatisfaction, Age, JobLevel, Department",4,6,847.7835513125281,877.4016077275323,54.191447123924604
+"JobSatisfaction, TotalWorkingYears, DistanceFromHome",3,4,857.9216809023696,877.6670518457058,54.456891242098095
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears",3,4,858.0734974756631,877.8188684189993,54.60870781539154
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",6,8,838.3360703749063,877.8268122615787,54.61665165797092
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome",4,5,853.6487370350674,878.3304507142376,55.12029011062987
+"YearsAtCompany, JobSatisfaction, JobLevel, Department",4,6,848.8912619313836,878.5093183463879,55.29915774278015
+"YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel, Department",5,7,844.0723899113248,878.6267890621631,55.41662845855535
+"JobSatisfaction, Age, TotalWorkingYears",3,4,858.8824248048078,878.627795748144,55.417635144536234
+OverTime,1,2,868.7886431210093,878.6613285926774,55.45116798906963
+"JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",4,5,854.0376741289149,878.7193878080851,55.509227204477384
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, Department",5,7,844.4184955664495,878.9728947172878,55.76273411368004
+"YearsAtCompany, Age, DistanceFromHome, JobLevel, Department",5,7,844.8541431410239,879.4085422918622,56.19838168825447
+"YearsAtCompany, Age, DistanceFromHome, JobLevel",4,5,854.9068674072037,879.5885810863739,56.37842048276616
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,840.2421959295102,879.7329378161826,56.52277721257485
+"YearsAtCompany, Age, JobLevel, Department",4,6,850.1748440487987,879.792900463803,56.58273986019526
+"YearsAtCompany, Age, JobLevel",3,4,860.1026552258513,879.8480261691875,56.63786556557977
+"JobSatisfaction, Age, DistanceFromHome, JobLevel",4,5,855.18458208331,879.8662957624803,56.65613515887253
+"JobSatisfaction, Age, JobLevel",3,4,860.2952130350584,880.0405839783946,56.83042337478685
+"MonthlyIncome, YearsAtCompany, Age",3,4,860.5296984187281,880.2750693620643,57.06490875845657
+"MonthlyIncome, YearsAtCompany, Age, DistanceFromHome",4,5,855.5995818714357,880.2812955506059,57.0711349469982
+"OverTime, DistanceFromHome",2,3,865.6631410928671,880.4721693003693,57.26200869676154
+"OverTime, Department",2,4,860.7283263177253,880.4736972610615,57.263536657453756
+"YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome",4,5,855.8690530911766,880.5507667703469,57.34060616673912
+"JobSatisfaction, TotalWorkingYears, Department",3,5,855.9130784792253,880.5947921583955,57.3846315547878
+"YearsAtCompany, Age, TotalWorkingYears",3,4,860.8664712347756,880.6118421781118,57.401681574504096
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, Department",4,6,851.0273941219848,880.6454505369891,57.43528993338134
+"JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",4,6,851.372050870297,880.9901072853013,57.77994668169356
+"MonthlyIncome, JobSatisfaction, Age, Department",4,6,851.6714003267552,881.2894567417595,58.07929613815179
+"Age, DistanceFromHome, JobLevel, Department",4,6,851.6746073327442,881.2926637477485,58.08250314414079
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",5,7,846.8158248639414,881.3702240147798,58.16006341117202
+"JobSatisfaction, Age",2,3,866.5933742012678,881.40240240877,58.19224180516221
+"YearsAtCompany, JobSatisfaction, JobLevel",3,4,861.7184640004041,881.4638349437403,58.253674340132534
+"JobSatisfaction, DistanceFromHome, JobLevel, Department",4,6,851.8655584233283,881.4836148383325,58.273454234724795
+"MonthlyIncome, JobSatisfaction, Age",3,4,861.7455689159282,881.4909398592644,58.280779255656626
+"MonthlyIncome, YearsAtCompany, Age, Department",4,6,851.9396736912577,881.5577301062619,58.34756950265421
+"MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, Department",5,7,847.0663894564125,881.6207886072508,58.41062800364307
+"JobSatisfaction, Age, TotalWorkingYears, Department",4,6,852.0377876537527,881.655844068757,58.44568346514927
+"MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, Department",5,7,847.1492690557186,881.7036682065569,58.493507602949194
+"MonthlyIncome, JobSatisfaction, Age, DistanceFromHome",4,5,857.1003035490241,881.7820172281944,58.571856624586644
+"JobSatisfaction, JobLevel, Department",3,5,857.1508452354419,881.8325589146122,58.62239831100442
+"YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel",4,5,857.1601483714958,881.841862050666,58.631701447058276
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Department",4,6,852.2275610831985,881.8456174982027,58.635456894594995
+"JobSatisfaction, Age, DistanceFromHome",3,4,862.1368565880094,881.8822275313456,58.67206692773789
+"JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",5,7,847.3842211552856,881.9386203061239,58.72845970251615
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",6,8,842.5887817928116,882.0795236794839,58.86936307587621
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",7,9,837.7125818137749,882.1396664362813,58.92950583267361
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, JobLevel, Department",6,8,842.6494590661483,882.1402009528207,58.93004034921296
+"Age, JobLevel, Department",3,5,857.4625746864142,882.1442883655844,58.9341277619767
+"TotalWorkingYears, DistanceFromHome",2,3,867.3523909897597,882.1614191972618,58.951258593654075
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,837.769743739099,882.1968283616054,58.98666775799768
+"OverTime, DistanceFromHome, Department",3,5,857.5813201631331,882.2630338423033,59.05287323869561
+TotalWorkingYears,1,2,872.4744600665905,882.3471455382586,59.136984934650854
+"MonthlyIncome, YearsAtCompany, JobSatisfaction",3,4,862.6158197113049,882.3611906546411,59.15103005103333
+"JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",5,7,847.9070668314237,882.461465982262,59.25130537865425
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel",5,6,852.8838374075931,882.5018938225974,59.291733218989634
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, JobLevel",5,6,852.9273128652669,882.5453692802712,59.335208676663456
+"YearsAtCompany, TotalWorkingYears",2,3,867.747083388119,882.5561115956211,59.3459509920134
+"YearsAtCompany, TotalWorkingYears, DistanceFromHome",3,4,862.8364495719143,882.5818205152505,59.37165991164272
+"YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,848.0747250466891,882.6291241975274,59.41896359391967
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel",6,7,848.1111253519782,882.6655245028165,59.455363899208805
+"JobSatisfaction, TotalWorkingYears, JobLevel, Department",4,6,853.0829996335217,882.701056048526,59.49089544491824
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, Department",5,7,848.1617939933001,882.7161931441384,59.50603254053067
+"Age, TotalWorkingYears, DistanceFromHome",3,4,863.1280341689794,882.8734051123156,59.66324450870786
+"YearsAtCompany, DistanceFromHome, JobLevel, Department",4,6,853.2578474665592,882.8759038815634,59.6657432779557
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears",5,6,853.2809530525901,882.8990094675944,59.688848863986664
+"JobSatisfaction, TotalWorkingYears, JobLevel",3,4,863.2359216863729,882.9812926297091,59.77113202610133
+"JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",4,5,858.3746931176515,883.0564067968218,59.84624619321403
+"YearsAtCompany, Age, TotalWorkingYears, Department",4,6,853.5490773115371,883.1671337265414,59.95697312293362
+"JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,843.7212646779919,883.2120065646643,60.001845961056574
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome",4,5,858.5466066975885,883.2283203767587,60.018159773150956
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",6,7,848.6884107848209,883.2428099356592,60.032649332051506
+"Age, TotalWorkingYears",2,3,868.4370959058999,883.2461241134021,60.03596350979433
+"YearsAtCompany, JobLevel, Department",3,5,858.584091220463,883.2658048996333,60.05564429602555
+"YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, Department",5,7,848.8388210785745,883.3932202294128,60.18305962580507
+"JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",5,7,849.0052027668439,883.5596019176822,60.34944131407451
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel, Department",5,7,849.2333923428388,883.7877914936771,60.57763089006937
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears",3,4,864.0644013772178,883.809772320554,60.59961171694624
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,844.3773042659517,883.8680461526241,60.65788554901633
+"MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",6,8,844.3829629551162,883.8737048417886,60.66354423818086
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel",4,5,859.2494067123595,883.9311203915297,60.72095978792197
+"Age, DistanceFromHome, JobLevel",3,4,864.2403018657244,883.9856728090606,60.775512205452856
+"JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,854.377018671132,883.9950750861362,60.78491448252851
+"JobSatisfaction, Age, Department",3,5,859.3600664135408,884.0417800927111,60.83161948910333
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome",4,5,859.4219428056471,884.1036564848173,60.89349588120956
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, Department",6,8,844.6374179384682,884.1281598251405,60.917999221532796
+"JobSatisfaction, Age, TotalWorkingYears, JobLevel",4,5,859.474333607993,884.1560472871632,60.9458866835555
+"YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,854.5788707442172,884.1969271592214,60.98676655561371
+"MonthlyIncome, JobSatisfaction, Age, JobLevel, Department",5,7,849.7560043661286,884.310403516967,61.10024291335924
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears",4,5,859.7237951263994,884.4055088055696,61.195348201961906
+"Age, JobLevel",2,3,869.7050687980447,884.5140970055469,61.303936401939154
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",7,9,840.3288545031324,884.7559391256389,61.54577852203113
+"JobSatisfaction, Age, DistanceFromHome, Department",4,6,855.1999477860948,884.818004201099,61.607843597491296
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome",5,6,855.2562303031594,884.8742867181637,61.664126114555984
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears",4,5,860.282744486984,884.9644581661543,61.754297562546526
+"YearsAtCompany, JobSatisfaction",2,3,870.1701919105994,884.9792201181016,61.76905951449385
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome",5,6,855.4207093590906,885.0387657740948,61.828605170487094
+"YearsAtCompany, TotalWorkingYears, Department",3,5,860.5665585890163,885.2482722681865,62.038111664578764
+"TotalWorkingYears, DistanceFromHome, Department",3,5,860.5998473548774,885.2815610340476,62.071400430439894
+"YearsAtCompany, TotalWorkingYears, DistanceFromHome, Department",4,6,855.7852434661543,885.4032998811585,62.19313927755081
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, JobLevel, Department",5,7,850.8907711386653,885.4451702895036,62.235009685895875
+"TotalWorkingYears, Department",2,4,865.7527439705186,885.4981149138548,62.28795431024707
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel, Department",6,8,846.0581734560582,885.5489153427305,62.338754739122805
+Age,1,2,875.7421339159285,885.6148193875966,62.40465878398891
+"Age, DistanceFromHome",2,3,870.8408731076604,885.6499013151625,62.439740711554805
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, Department",4,6,856.0466208940356,885.6646773090399,62.454516705432184
+"DistanceFromHome, JobLevel, Department",3,5,861.1605198550599,885.8422335342301,62.63207293062237
+"MonthlyIncome, Age, DistanceFromHome, Department",4,6,856.3055531143198,885.923609529324,62.71344892571631
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",5,7,851.3837653249309,885.9381644757692,62.72800387216148
+"Age, TotalWorkingYears, DistanceFromHome, Department",4,6,856.3674219954581,885.9854784104624,62.77531780685467
+"MonthlyIncome, Age, DistanceFromHome",3,4,866.2540418062978,885.999412749634,62.78925214602623
+"MonthlyIncome, Age, Department",3,5,861.3274790301718,886.0091927093421,62.79903210573434
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, Department",5,7,851.4593070219363,886.0137061727746,62.803545569166886
+"MonthlyIncome, Age",2,3,871.2190002781999,886.0280284857021,62.81786788209433
+"MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, JobLevel, Department",6,8,846.546765131297,886.0375070179693,62.827346414361614
+"YearsAtCompany, DistanceFromHome, JobLevel",3,4,866.3818626823088,886.127233625645,62.91707302203724
+"YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,846.6448249104462,886.1355667971186,62.92540619351087
+"YearsAtCompany, JobLevel",2,3,871.3738233097483,886.1828515172505,62.97269091364274
+"Age, TotalWorkingYears, Department",3,5,861.593217851138,886.2749315303082,63.064770926700476
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, Department",5,7,851.9141083986501,886.4685075494884,63.2583469458807
+"MonthlyIncome, YearsAtCompany, Age, DistanceFromHome, JobLevel",5,6,856.8641394970059,886.4821959120102,63.27203530840245
+"YearsAtCompany, Age, TotalWorkingYears, JobLevel, Department",5,7,851.9294502551022,886.4838494059405,63.2736888023328
+"YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,856.8705407687726,886.4885971837768,63.278436580169114
+"MonthlyIncome, YearsAtCompany, Age, JobLevel, Department",5,7,851.9950863093289,886.5494854601673,63.33932485655953
+"MonthlyIncome, YearsAtCompany, Department",3,5,861.9033821507949,886.5850958299651,63.374935226357366
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, Department",6,8,847.1005579153909,886.5912998020633,63.38113919845557
+"YearsAtCompany, JobSatisfaction, DistanceFromHome",3,4,866.8742597598373,886.6196307031735,63.40947009956574
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,847.1631238867392,886.6538657734116,63.44370516980382
+"JobLevel, Department",2,4,866.9512425515879,886.6966134949241,63.48645289131639
+"YearsAtCompany, Age, TotalWorkingYears, JobLevel",4,5,862.0779338395836,886.7596475187538,63.549486915146076
+"MonthlyIncome, YearsAtCompany, Age, JobLevel",4,5,862.0983970586833,886.7801107378535,63.5699501342458
+"MonthlyIncome, JobSatisfaction, Age, DistanceFromHome, JobLevel",5,6,857.1764352278238,886.7944916428281,63.58433103922039
+"MonthlyIncome, JobSatisfaction, Age, JobLevel",4,5,862.2502824484081,886.9319961275784,63.72183552397064
+"TotalWorkingYears, DistanceFromHome, JobLevel, Department",4,6,857.3596103494392,886.9776667644435,63.76750616083575
+"MonthlyIncome, YearsAtCompany, DistanceFromHome, Department",4,6,857.3945831406666,887.0126395556708,63.8024789520631
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome",5,6,857.4740368817204,887.0920932967247,63.88193269311694
+"MonthlyIncome, YearsAtCompany",2,3,872.3201099992133,887.1291382067154,63.91897760310769
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears",4,5,862.4647591108137,887.1464727899839,63.9363121863762
+"YearsAtCompany, JobSatisfaction, Department",3,5,862.5532959150004,887.2350095941706,64.02484899056287
+"Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",5,7,852.9679024599249,887.5223016107632,64.31214100715545
+"JobSatisfaction, JobLevel",2,3,872.7611400465064,887.5701682540085,64.3600076504008
+"MonthlyIncome, YearsAtCompany, DistanceFromHome",3,4,867.875106302249,887.6204772455852,64.41031664197749
+"TotalWorkingYears, DistanceFromHome, JobLevel",3,4,867.9167207894941,887.6620917328303,64.45193112922254
+"JobSatisfaction, DistanceFromHome, JobLevel",3,4,868.006000040927,887.7513709842632,64.54121038065546
+"TotalWorkingYears, JobLevel, Department",3,5,863.0745021340973,887.7562158132675,64.54605520965981
+"MonthlyIncome, JobSatisfaction, Department",3,5,863.1370793903902,887.8187930695605,64.60863246595272
+"TotalWorkingYears, JobLevel",2,3,873.2302992522488,888.0393274597509,64.82916685614316
+"MonthlyIncome, Age, DistanceFromHome, JobLevel, Department",5,7,853.5490896312356,888.1034887820739,64.89332817846616
+"YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel, Department",5,7,853.5813726312304,888.1357717820687,64.92561117846094
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, JobLevel",4,5,863.5299575388765,888.2116712180467,65.00151061443898
+"Age, TotalWorkingYears, DistanceFromHome, JobLevel",4,5,863.5834711888009,888.2651848679711,65.0550242643634
+"Age, TotalWorkingYears, JobLevel, Department",4,6,858.7417359146266,888.3597923296309,65.14963172602313
+"Age, Department",2,4,868.6363482950321,888.3817192383683,65.17155863476057
+"MonthlyIncome, JobSatisfaction, DistanceFromHome, JobLevel, Department",5,7,853.8533665567084,888.4077657075467,65.19760510393894
+"MonthlyIncome, JobSatisfaction, DistanceFromHome, Department",4,6,858.8238832485656,888.4419396635699,65.23177905996215
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, Department",5,7,853.9009810506966,888.4553802015349,65.24521959792719
+"YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel",4,5,863.8743936866815,888.5561073658517,65.34594676224401
+"YearsAtCompany, TotalWorkingYears, JobLevel, Department",4,6,858.9494696735205,888.5675260885248,65.35736548491707
+"Age, DistanceFromHome, Department",3,5,863.937984491122,888.6196981702923,65.40953756668455
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, Department",6,8,849.1421574605905,888.6328993472629,65.42273874365515
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, DistanceFromHome, JobLevel",5,6,859.0522022283185,888.6702586433228,65.46009803971504
+"MonthlyIncome, TotalWorkingYears, DistanceFromHome",3,4,868.9580352039563,888.7034061472925,65.4932455436848
+"MonthlyIncome, JobSatisfaction, JobLevel, Department",4,6,859.1025698214999,888.7206262365041,65.5104656328964
+"YearsAtCompany, TotalWorkingYears, JobLevel",3,4,868.9889649655228,888.734335908859,65.52417530525122
+"Age, TotalWorkingYears, JobLevel",3,4,869.0852686831024,888.8306396264386,65.62047902283086
+"MonthlyIncome, TotalWorkingYears",2,3,874.0609843672319,888.870012574734,65.65985197112627
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",7,9,844.5059725792962,888.9330572018026,65.7228965981949
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",8,10,839.6089110317539,888.9723383900944,65.76217778648663
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,849.5401401510151,889.0308820376874,65.8207214340797
+"MonthlyIncome, Age, JobLevel, Department",4,6,859.4185267495315,889.0365831645357,65.826422560928
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears",3,4,869.4489667951316,889.1943377384678,65.98417713486003
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome",4,5,864.5342767494992,889.2159904286694,66.00582982506171
+"YearsAtCompany, JobSatisfaction, DistanceFromHome, Department",4,6,859.616200554063,889.2342569690672,66.02409636545951
+"MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome",4,5,864.6297077147475,889.3114213939177,66.10126079031
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, JobLevel, Department",5,7,854.8228600616854,889.3772592125238,66.16709860891604
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, JobLevel",6,7,854.8759035442667,889.4303026951051,66.22014209149734
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",7,8,850.0305038079637,889.521245694636,66.3110850910283
+"MonthlyIncome, Age, TotalWorkingYears",3,4,869.902577175696,889.6479481190322,66.43778751542447
+YearsAtCompany,1,2,879.7941463329137,889.6668318045818,66.45667120097403
+"MonthlyIncome, YearsAtCompany, DistanceFromHome, JobLevel, Department",5,7,855.227575787212,889.7819749380503,66.57181433444259
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,860.1832302308219,889.8012866458262,66.59112604221843
+"MonthlyIncome, JobSatisfaction, TotalWorkingYears, JobLevel",4,5,865.1227969499768,889.804510629147,66.59435002553926
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,845.445454617826,889.8725392403325,66.66237863672472
+"MonthlyIncome, JobSatisfaction",2,3,875.119061802693,889.9280900101951,66.71792940658736
+"MonthlyIncome, YearsAtCompany, JobLevel, Department",4,6,860.5818919874096,890.1999484024138,66.9897877988061
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, JobLevel, Department",6,8,850.8316278677325,890.3223697544049,67.11220915079718
+"MonthlyIncome, TotalWorkingYears, DistanceFromHome, Department",4,6,860.8206491347719,890.4387055497762,67.22854494616843
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,846.1199439199534,890.5470285424598,67.33686793885204
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel, Department",6,8,851.0671388947751,890.5578807814475,67.34772017783973
+"MonthlyIncome, TotalWorkingYears, Department",3,5,866.0143880944051,890.6961017735754,67.48594116996765
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, Department",4,6,861.1165510838288,890.734607498833,67.52444689522531
+"YearsAtCompany, DistanceFromHome",2,3,875.9618054836078,890.7708336911099,67.56067308750221
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,856.2441247793859,890.7985239302242,67.58836332661645
+"MonthlyIncome, JobSatisfaction, DistanceFromHome",3,4,871.0598265715796,890.8051975149158,67.59503691130806
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, Department",5,7,856.2592178056046,890.813616956443,67.60345635283522
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, JobLevel",5,6,861.2065450800939,890.8246014950981,67.6144408914904
+"MonthlyIncome, Age, DistanceFromHome, JobLevel",4,5,866.2402575554838,890.921971234654,67.71181063104632
+"MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, Department",5,7,856.3840144149602,890.9384135657986,67.72825296219082
+"MonthlyIncome, JobSatisfaction, Age, TotalWorkingYears, JobLevel",5,6,861.4107927645168,891.0288491795211,67.81868857591337
+"MonthlyIncome, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,856.4803747885362,891.0347739393745,67.8246133357668
+"MonthlyIncome, Age, TotalWorkingYears, Department",4,6,861.615375666097,891.2334320811012,68.0232714774935
+"MonthlyIncome, Age, JobLevel",3,4,871.6811627280845,891.4265336714207,68.21637306781292
+"YearsAtCompany, Department",2,4,872.1701275179282,891.9154984612644,68.70533785765667
+"DistanceFromHome, JobLevel",2,3,877.2429743218994,892.0520025294015,68.8418419257938
+JobLevel,1,2,882.3837800069438,892.2564654786119,69.04630487500413
+"MonthlyIncome, Department",2,4,873.0083653462386,892.7537362895748,69.54357568596708
+"MonthlyIncome, DistanceFromHome, JobLevel, Department",4,6,863.1595873013886,892.7776437163928,69.56748311278511
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",7,9,848.4405009827387,892.8675856052452,69.65742500163742
+"MonthlyIncome, YearsAtCompany, JobLevel",3,4,873.2126974818075,892.9580684251437,69.74790782153593
+"MonthlyIncome, DistanceFromHome, Department",3,5,868.2810023504851,892.9627160296553,69.75255542604759
+"MonthlyIncome, YearsAtCompany, DistanceFromHome, JobLevel",4,5,868.3113208034974,892.9930344826677,69.78287387905993
+"YearsAtCompany, DistanceFromHome, Department",3,5,868.6396057526991,893.3213194318694,70.11115882826164
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, JobLevel, Department",6,8,853.8367918694914,893.3275337561638,70.11737315255607
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, DistanceFromHome, JobLevel",6,7,858.7994463741438,893.3538455249821,70.14368492137442
+"MonthlyIncome, TotalWorkingYears, DistanceFromHome, JobLevel, Department",5,7,858.9075557854355,893.4619549362739,70.25179433266612
+"MonthlyIncome, JobLevel, Department",3,5,868.9235182561806,893.6052319353508,70.39507133174311
+"MonthlyIncome, YearsAtCompany, Age, TotalWorkingYears, JobLevel",5,6,864.0653491810492,893.6834055960535,70.47324499244576
+"MonthlyIncome, JobSatisfaction, JobLevel",3,4,874.2994597733746,894.0448307167107,70.83467011310302
+"MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,854.6169980647209,894.1077399513932,70.8975793477855
+"MonthlyIncome, TotalWorkingYears, DistanceFromHome, JobLevel",4,5,869.6567918548656,894.3385055340358,71.12834493042806
+"MonthlyIncome, JobSatisfaction, DistanceFromHome, JobLevel",4,5,869.6802185892266,894.3619322683968,71.15177166478907
+"MonthlyIncome, TotalWorkingYears, JobLevel, Department",4,6,864.775887266706,894.3939436817103,71.18378307810258
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel, Department",6,8,855.2673937982544,894.7581356849267,71.54797508131901
+MonthlyIncome,1,2,884.9066170497016,894.7793025213697,71.56914191776195
+"MonthlyIncome, TotalWorkingYears, JobLevel",3,4,875.0876318822131,894.8330028255493,71.6228422219416
+"MonthlyIncome, Age, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,865.3920680977823,895.0101245127865,71.79996390917881
+"MonthlyIncome, Age, TotalWorkingYears, JobLevel, Department",5,7,860.5378520787492,895.0922512295875,71.8820906259798
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, JobLevel, Department",5,7,860.764733516544,895.3191326673823,72.10897206377456
+"MonthlyIncome, DistanceFromHome",2,3,880.5419696018618,895.3509978093639,72.14083720575616
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, DistanceFromHome, JobLevel",5,6,865.7362326805478,895.3542890955521,72.14412849194434
+"MonthlyIncome, YearsAtCompany, TotalWorkingYears, JobLevel",4,5,870.9344506728974,895.6161643520676,72.40600374845985
+"MonthlyIncome, Age, TotalWorkingYears, JobLevel",4,5,870.9995517665463,895.6812654457166,72.47110484210884
+"MonthlyIncome, DistanceFromHome, JobLevel",3,4,879.0107890058242,898.7561599491604,75.54599934555267
+"MonthlyIncome, JobLevel",2,3,884.0032158306487,898.8122440381509,75.60208343454315
+JobSatisfaction,1,2,902.0323010614374,911.9049865331054,88.69482592949771
+"JobSatisfaction, DistanceFromHome",2,3,898.649053937314,913.4580821448161,90.24792154120837
+"JobSatisfaction, Department",2,4,895.1707501019706,914.9161210453068,91.70596044169906
+(solo intercepto),0,1,911.337647802105,916.2739905379391,93.06382993433135
+"JobSatisfaction, DistanceFromHome, Department",3,5,891.9574443250776,916.6391580042479,93.42899740064013
+DistanceFromHome,1,2,907.4230570758486,917.2957425475167,94.085581943909
+Department,1,3,904.5468723864262,919.3559005939284,96.14573999032064
+"DistanceFromHome, Department",2,4,900.7224790981934,920.4678500415296,97.25768943792184

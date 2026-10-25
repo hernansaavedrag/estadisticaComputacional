@@ -1,0 +1,76 @@
+Pliegue,Modelo,Variables,OverTime,MonthlyIncome,YearsAtCompany,JobSatisfaction,Age,TotalWorkingYears,DistanceFromHome,JobLevel,Department
+1,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+1,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+1,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+2,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+2,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+2,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+3,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+3,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+3,M3,"OverTime, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,False,True,True,False,True,True,True
+4,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+4,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+4,M3,"OverTime, YearsAtCompany, Age",True,False,True,False,True,False,False,False,False
+5,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+5,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+5,M3,"OverTime, JobSatisfaction, Age, JobLevel, Department",True,False,False,True,True,False,False,True,True
+6,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+6,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+6,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+7,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+7,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+7,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, Department",True,False,True,True,True,False,False,False,True
+8,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+8,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+8,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+9,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+9,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+9,M3,"OverTime, JobSatisfaction, TotalWorkingYears",True,False,False,True,False,True,False,False,False
+10,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+10,M2,"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears, DistanceFromHome, JobLevel, Department",True,False,True,True,False,True,True,True,True
+10,M3,"OverTime, YearsAtCompany, JobSatisfaction, TotalWorkingYears",True,False,True,True,False,True,False,False,False
+11,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+11,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+11,M3,"OverTime, JobSatisfaction, TotalWorkingYears",True,False,False,True,False,True,False,False,False
+12,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+12,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",True,False,True,True,True,False,True,False,True
+12,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, Department",True,False,True,True,True,False,False,False,True
+13,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+13,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+13,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+14,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+14,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+14,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel",True,False,True,True,True,False,True,True,False
+15,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+15,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+15,M3,"OverTime, JobSatisfaction, TotalWorkingYears, Department",True,False,False,True,False,True,False,False,True
+16,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+16,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+16,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+17,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+17,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+17,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome",True,False,True,True,True,False,True,False,False
+18,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+18,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+18,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+19,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+19,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+19,M3,"OverTime, JobSatisfaction, TotalWorkingYears",True,False,False,True,False,True,False,False,False
+20,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+20,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+20,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, Department",True,False,True,True,True,False,True,False,True
+21,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+21,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, Department",True,False,True,True,True,True,True,False,True
+21,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age, Department",True,False,True,True,True,False,False,False,True
+22,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+22,M2,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,True,True,True,True,False,True,True,True
+22,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+23,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+23,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+23,M3,"OverTime, YearsAtCompany, JobSatisfaction, Age",True,False,True,True,True,False,False,False,False
+24,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+24,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+24,M3,"OverTime, JobSatisfaction, TotalWorkingYears",True,False,False,True,False,True,False,False,False
+25,M1,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction",True,True,True,True,False,False,False,False,False
+25,M2,"OverTime, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department",True,False,True,True,True,False,True,True,True
+25,M3,"OverTime, JobSatisfaction, Age, JobLevel, Department",True,False,False,True,True,False,False,True,True

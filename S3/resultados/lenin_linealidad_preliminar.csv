@@ -1,0 +1,6 @@
+Variable,Prueba,Estadistico,gl,Valor p
+YearsAtCompany,Box-Tidwell (x ln x),4.868749355704146,1,1.1230674495126276e-06
+JobSatisfaction,LR lineal vs categorica,0.8966395946138164,2,0.6387003967016018
+Age,Box-Tidwell (x ln x),3.1480252676640217,1,0.0016437748382852606
+DistanceFromHome,Box-Tidwell (x ln x),0.08371619425519607,1,0.933282081190918
+JobLevel,LR lineal vs categorica,26.169596963650406,3,8.788548367751131e-06
