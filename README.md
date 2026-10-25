@@ -168,3 +168,50 @@ recall 5,63 %, F1 0,1039 y AUC 0,7724. Con umbral 0,5 se detectan
 
 **Entrega en Canvas:** archivo `F2_IBM_HR_Modelamiento.ipynb`.
 
+## Sumativa 3: proyecto final integrado
+
+Notebook maestro:
+
+[S3_IBM_HR_Proyecto_Final.ipynb](S3/notebooks/S3_IBM_HR_Proyecto_Final.ipynb)
+
+Integra los aportes de Hernán Saavedra, Lenin Morales y Rodrigo Gómez:
+
+- Comparación de eliminación, mediana e imputación por regresión.
+- Modelos M1, M2 por stepwise AIC y M3 reducido por BIC.
+- Variante M2c, corregida tras los diagnósticos.
+- Ponderación de clases y evaluación en entrenamiento y prueba.
+- Bootstrap de 10.000 réplicas, intervalos y estabilidad de signos.
+- Sensibilidad a la imputación con M2c y M1.
+
+### Ejecución de Sumativa 3
+
+Instalar las dependencias específicas:
+
+```bash
+python -m pip install -r S3/requirements.txt
+```
+
+Abrir el notebook maestro, seleccionar el entorno correspondiente
+y ejecutar todas las celdas en orden. Se requieren los datos e insumos
+previos del repositorio y los archivos de S3/src.
+
+El bootstrap se ejecuta mediante procesos independientes y guarda
+lotes reanudables. Los lotes existentes se verifican antes de recuperar
+los resultados.
+
+### Resultados y alcance
+
+M2c ponderado detecta 52 de las 71 salidas de prueba y genera 91 falsas
+alarmas: recall 73,24 %, precision 36,36 %, F1 0,4860, accuracy 75,06 %
+y AUC 0,7722.
+
+La mayor detección frente a F2 tiene como costo más falsas alarmas.
+El AUC permanece prácticamente igual. Los datos son sintéticos y
+la evaluación es exploratoria.
+
+**Estado:** análisis computacional integrado. El informe final y la
+presentación están en preparación.
+
+**Entrega en Canvas:** PDF de máximo 10 páginas, notebook maestro,
+presentación y enlace al repositorio.
+

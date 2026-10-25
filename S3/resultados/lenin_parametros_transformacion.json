@@ -7,17 +7,17 @@
       "YearsAtCompany"
     ],
     "coeficientes": {
-      "const": 1673.1322703814121,
-      "TotalWorkingYears": 467.9709971068174,
-      "Age": -15.363592646452966,
-      "YearsAtCompany": 17.890768124509435
+      "const": 1673.1322703814126,
+      "TotalWorkingYears": 467.97099710681795,
+      "Age": -15.363592646453139,
+      "YearsAtCompany": 17.8907681245092
     },
     "registros_ajuste": 933
   },
   "estandarizacion": {
     "log1p_YearsAtCompany": {
       "media": 1.8092887225249052,
-      "desviacion": 0.7501970132964326
+      "desviacion": 0.7501970132964327
     },
     "JobSatisfaction": {
       "media": 2.706511175898931,

@@ -1,9 +1,9 @@
 ,VIF,Lectura
-OverTime,1.006883129693446,Despreciable
-log1p_YearsAtCompany,1.2483672531837962,Despreciable
+OverTime,1.0068831296934462,Despreciable
+log1p_YearsAtCompany,1.2483672531837964,Despreciable
 JobSatisfaction,1.0016719998907337,Despreciable
-log_Age,1.267440930674063,Despreciable
+log_Age,1.2674409306740628,Despreciable
 DistanceFromHome,1.0064108490521713,Despreciable
-ind_JobLevel_1,1.550796923540668,Despreciable
+ind_JobLevel_1,1.5507969235406678,Despreciable
 Dept_Human Resources,1.024763643453235,Despreciable
 Dept_Sales,1.1360035968972169,Despreciable
