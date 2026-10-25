@@ -1,0 +1,10 @@
+Variable,Tipo,Codificacion,Fuente fundamento,En M1
+OverTime,Binaria,0/1,S1 chi-cuadrado; F2,True
+MonthlyIncome,Cuantitativa (imputada),z,S1 Welch; S2 bootstrap,True
+YearsAtCompany,Cuantitativa,z,S1 bivariado; S2,True
+JobSatisfaction,Ordinal 1-4,z (lineal),S1 tasas por nivel; F2,True
+Age,Cuantitativa,z,S1 bivariado; S2 correlacion,False
+TotalWorkingYears,Cuantitativa,z,S1 bivariado; S2 correlacion,False
+DistanceFromHome,Cuantitativa,z,S1 bivariado; S2 correlacion,False
+JobLevel,Ordinal 1-5,z (lineal),S2 recomendacion S3,False
+Department,Nominal 3 niveles,Indicadoras HR y Sales; referencia R&D,S1 frecuencias,False

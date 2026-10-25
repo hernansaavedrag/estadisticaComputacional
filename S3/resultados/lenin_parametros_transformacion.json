@@ -1,0 +1,55 @@
+{
+  "imputacion": {
+    "variable": "MonthlyIncome",
+    "predictores": [
+      "TotalWorkingYears",
+      "Age",
+      "YearsAtCompany"
+    ],
+    "coeficientes": {
+      "const": 1673.1322703814121,
+      "TotalWorkingYears": 467.9709971068174,
+      "Age": -15.363592646452966,
+      "YearsAtCompany": 17.890768124509435
+    },
+    "registros_ajuste": 933
+  },
+  "estandarizacion": {
+    "log1p_YearsAtCompany": {
+      "media": 1.8092887225249052,
+      "desviacion": 0.7501970132964326
+    },
+    "JobSatisfaction": {
+      "media": 2.706511175898931,
+      "desviacion": 1.1094598429480345
+    },
+    "log_Age": {
+      "media": 3.5785241908229533,
+      "desviacion": 0.25052343769623925
+    },
+    "DistanceFromHome": {
+      "media": 9.298347910592808,
+      "desviacion": 8.160560892321314
+    }
+  },
+  "codificacion_OverTime": {
+    "No": 0,
+    "Yes": 1
+  },
+  "codificacion_Department": {
+    "referencia": "Research & Development",
+    "indicadoras": [
+      "Dept_Human Resources",
+      "Dept_Sales"
+    ]
+  },
+  "codificacion_objetivo": {
+    "No": 0,
+    "Yes": 1
+  },
+  "pesos_entrenamiento": {
+    "0": 0.5961761297798378,
+    "1": 3.0993975903614457
+  },
+  "ajustado_con": "Entrenamiento completo (1.029 registros); ingresos observados para la imputación"
+}

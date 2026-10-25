@@ -1,0 +1,6 @@
+Indicador,Valor
+Grupos de residuos,32.0
+Grupos fuera de banda,3.0
+Hosmer-Lemeshow (8 gl),12.959061058609507
+Valor p Hosmer-Lemeshow,0.11326597516296537
+Residuos de desvianza |r| > 2,41.0
