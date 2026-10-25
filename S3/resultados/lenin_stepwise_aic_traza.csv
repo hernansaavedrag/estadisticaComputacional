@@ -1,13 +1,13 @@
 Inicio,Paso,Movimiento,Variable,Criterio,Variables
-Modelo nulo,0,inicio,-,911.337647802105,(solo intercepto)
-Modelo nulo,1,agregar,OverTime,868.7886431210093,OverTime
+Modelo nulo,0,inicio,-,911.3376478021053,(solo intercepto)
+Modelo nulo,1,agregar,OverTime,868.7886431210094,OverTime
 Modelo nulo,2,agregar,TotalWorkingYears,820.4382186938367,"OverTime, TotalWorkingYears"
 Modelo nulo,3,agregar,JobSatisfaction,809.2684970842602,"OverTime, TotalWorkingYears, JobSatisfaction"
-Modelo nulo,4,agregar,Department,799.9495058744469,"OverTime, TotalWorkingYears, JobSatisfaction, Department"
+Modelo nulo,4,agregar,Department,799.949505874447,"OverTime, TotalWorkingYears, JobSatisfaction, Department"
 Modelo nulo,5,agregar,Age,794.6774613217251,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age"
 Modelo nulo,6,agregar,YearsAtCompany,788.9060303893065,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age, YearsAtCompany"
-Modelo nulo,7,agregar,DistanceFromHome,785.0837394182248,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age, YearsAtCompany, DistanceFromHome"
-Modelo nulo,8,agregar,JobLevel,782.783621707032,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age, YearsAtCompany, DistanceFromHome, JobLevel"
+Modelo nulo,7,agregar,DistanceFromHome,785.0837394182247,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age, YearsAtCompany, DistanceFromHome"
+Modelo nulo,8,agregar,JobLevel,782.7836217070321,"OverTime, TotalWorkingYears, JobSatisfaction, Department, Age, YearsAtCompany, DistanceFromHome, JobLevel"
 Modelo nulo,9,quitar,TotalWorkingYears,780.7858159368609,"OverTime, JobSatisfaction, Department, Age, YearsAtCompany, DistanceFromHome, JobLevel"
 Modelo completo,0,inicio,-,784.5731884666378,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, TotalWorkingYears, DistanceFromHome, JobLevel, Department"
 Modelo completo,1,quitar,TotalWorkingYears,782.6006258337788,"OverTime, MonthlyIncome, YearsAtCompany, JobSatisfaction, Age, DistanceFromHome, JobLevel, Department"
