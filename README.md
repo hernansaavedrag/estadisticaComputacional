@@ -215,3 +215,10 @@ presentación están en preparación.
 **Entrega en Canvas:** PDF de máximo 10 páginas, notebook maestro,
 presentación y enlace al repositorio.
 
+## Entrega final — Sumativa 3
+
+- [Informe técnico](S3/docs/Informe_Sumativa3_IBM_HR.pdf)
+- [Diapositivas de la presentación](S3/docs/Presentacion_Sumativa3_IBM_HR.pdf)
+- [Video de la presentación grupal](https://drive.google.com/file/d/11QPoWrNfOXjnenUXY9j4jeQAH7_TKVL2/view?usp=sharing)
+- [Notebook final](S3/notebooks/S3_IBM_HR_Proyecto_Final.ipynb)
+
